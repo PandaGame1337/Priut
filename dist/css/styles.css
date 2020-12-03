@@ -8479,22 +8479,21 @@ a.text-dark:hover, a.text-dark:focus {
   height: 100%;
   width: 100%; }
 
-.navbar-collapse {
+.main-nav-style {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start; }
-  .navbar-collapse .navbar-nav {
+  .main-nav-style .main-navbar-style {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1; }
-    .navbar-collapse .navbar-nav .nav-link {
+    .main-nav-style .main-navbar-style .nav-link {
       color: #000000;
-      margin: 8px 0 0 30px;
       font-size: 16px;
       position: relative; }
-      .navbar-collapse .navbar-nav .nav-link:hover {
+      .main-nav-style .main-navbar-style .nav-link:hover {
         color: #E63946; }
-      .navbar-collapse .navbar-nav .nav-link:after {
+      .main-nav-style .main-navbar-style .nav-link:after {
         content: '';
         width: 0;
         border-bottom: 2px solid #E63946;
@@ -8503,12 +8502,26 @@ a.text-dark:hover, a.text-dark:focus {
         bottom: -2px;
         -webkit-transition: all 0.2s ease;
         transition: all 0.2s ease; }
-      .navbar-collapse .navbar-nav .nav-link:hover:after {
+      .main-nav-style .main-navbar-style .nav-link:hover:after {
         width: 100%; }
-  .navbar-collapse .number-phome {
+    .main-nav-style .main-navbar-style .nav-link-style {
+      margin: 8px 0 0 30px; }
+  .main-nav-style .number-phone {
     color: #000000;
     margin-left: 3px;
     text-decoration: none; }
+
+.main-footer {
+  border-top: 1px solid #515151; }
+
+.main-footer-style {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .main-footer-style .footer-item {
+    margin-top: 50px; }
+  .main-footer-style .footer-nav-link {
+    margin: 10px 0 10px 0; }
 
 body {
   font-family: 'Roboto', sans-serif;
