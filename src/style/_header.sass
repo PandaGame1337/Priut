@@ -1,7 +1,28 @@
+header
+    border-bottom: 1px solid $text
+    .navbar-collapse
+        justify-content: start
+        .navbar-nav
+            flex-grow: 1
+            .nav-link
+                color: #000000
+                margin: 8px 0 0 30px
+                font-size: 16px
+                position: relative
+                &:hover
+                    color: $red
+                &:after
+                    content: ''
+                    width: 0
+                    border-bottom: 2px solid $red
+                    position: absolute
+                    left: 0
+                    bottom: -4px
+                    transition: all 0.2s ease
+                &:hover:after
+                    width: 100%
+        .number-phome
+            color: #000000
+            margin-left: 3px
+            text-decoration: none
 
-.navbar-nav
-    justify-content: start
-    .nav-link
-        color: #000000
-        font-size: 14px
-        margin: 30px
