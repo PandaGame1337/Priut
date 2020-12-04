@@ -8519,9 +8519,29 @@ a.text-dark:hover, a.text-dark:focus {
       -ms-flex-pack: justify;
           justify-content: space-between; }
   .main-footer-style .footer-item {
-    margin-top: 50px; }
-  .main-footer-style .footer-nav-link {
-    margin: 10px 0 10px 0; }
+    margin: 50px 0 50px 0; }
+    .main-footer-style .footer-item .footer-nav-item-style {
+      margin: 10px 0 10px 0; }
+      .main-footer-style .footer-item .footer-nav-item-style .footer-nav-link {
+        display: inline; }
+    .main-footer-style .footer-item .nav-footer-style {
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      padding-bottom: 73px; }
+    .main-footer-style .footer-item .our-adress {
+      padding-top: 30px;
+      text-align: center; }
+    .main-footer-style .footer-item .our-contacts-footer {
+      text-align: center; }
+
+.footer-copyright {
+  background-color: #515151; }
+  .footer-copyright .footer-copyright-text {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 0 20px 0; }
 
 body {
   font-family: 'Roboto', sans-serif;
