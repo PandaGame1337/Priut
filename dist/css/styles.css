@@ -8547,3 +8547,50 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   padding: 0; }
+
+.block-head {
+  color: #515151;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin: 50px 0 50px 0; }
+
+.stat-block-style {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .stat-block-style .stat-block-text {
+    margin: 30px 0 50px 0;
+    color: #515151;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 135%;
+    width: 290px;
+    height: 160px; }
+  .stat-block-style .stat-block-info {
+    margin: 0 10px;
+    text-align: center;
+    height: 200px;
+    width: 175px;
+    border: 1px solid #A4A4A4; }
+    .stat-block-style .stat-block-info .stat-block-img {
+      margin: 12px 0; }
+    .stat-block-style .stat-block-info .stat-block-info-span {
+      color: #E63946;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 42px; }
+    .stat-block-style .stat-block-info .stat-block-info-p {
+      margin: 10px 0;
+      color: #515151;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px; }
