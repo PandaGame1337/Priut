@@ -1,0 +1,1 @@
+$(function(){$(".js-topslider").slick({speed:600,dots:!0,arrows:!1})});
