@@ -1,0 +1,17 @@
+section.feedback
+    .container
+        h2.feedback-name Обратная связь:
+        .feedback-form
+            form
+            .row.feedback-row
+                .col-3.feedback-col
+                    p.form-title Ваше ФИО:
+                    input.form-input(type="text" placeholder=" Готлиб Артем Артемович")
+                .col-6.feedback-col
+                    p.form-title Сообщение:
+                    textarea.form-input(id="exampleFormControlTextarea1" rows="3")
+                .col-3.feedback-col
+                    p.form-title Телефон:
+                    input.form-input(type="text" placeholder=" +7 800 555 35 35")
+            .row.feedback-row.btn-feedback
+                    button.button-feedback-submit(type="submit") Отправить

@@ -8630,11 +8630,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 80px; }
+  margin-bottom: 60px; }
   .news-content-row .news-content-col {
     margin-left: 25px; }
     .news-content-row .news-content-col .news-content-date {
-      padding: 0 3px 0 3px;
+      padding: 3px 5px 3px 5px;
       display: inline;
       background-color: #E63946;
       font-weight: 500;
@@ -8648,3 +8648,33 @@ body {
       font-size: 14px;
       line-height: 135%;
       color: #515151; }
+
+.feedback {
+  background-color: #E63946; }
+  .feedback .feedback-name {
+    padding: 20px 0 30px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF; }
+  .feedback .form-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0; }
+  .feedback .form-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #9A9A9A;
+    margin-top: 7px; }
+    .feedback .form-input:focus {
+      outline: none; }
+  .feedback .button-feedback-submit {
+    padding: 8px 35px 8px 35px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: #E63946;
+    margin: 38px 0 38px 43%; }
