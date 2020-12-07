@@ -8856,3 +8856,36 @@ body {
       outline: none; }
     .feedback .button-feedback-submit:hover {
       background-color: #e24552; }
+
+.bot-slider-bg {
+  background: #E7E7E7;
+  height: 280px; }
+  .bot-slider-bg .multiple-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 90px; }
+    .bot-slider-bg .multiple-items .slick-prev {
+      background: url("../images/icon/prev-arrow.svg") no-repeat center;
+      padding: 0;
+      border: none;
+      font: inherit;
+      color: transparent;
+      background-color: transparent;
+      cursor: pointer;
+      width: 60px; }
+      .bot-slider-bg .multiple-items .slick-prev:focus {
+        outline: none; }
+    .bot-slider-bg .multiple-items .slider-img-botom {
+      margin-left: 60px; }
+    .bot-slider-bg .multiple-items .slick-next {
+      background: url("../images/icon/next-arrow.svg") no-repeat center;
+      padding: 0;
+      border: none;
+      font: inherit;
+      color: transparent;
+      background-color: transparent;
+      cursor: pointer;
+      width: 60px; }
+      .bot-slider-bg .multiple-items .slick-next:focus {
+        outline: none; }
