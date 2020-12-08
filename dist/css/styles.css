@@ -8889,3 +8889,12 @@ body {
       width: 60px; }
       .bot-slider-bg .multiple-items .slick-next:focus {
         outline: none; }
+
+.filter-catalog {
+  background: url("../images/filter-banner.png") no-repeat center; }
+  .filter-catalog .filter-up {
+    padding-top: 33px; }
+    .filter-catalog .filter-up .custom-checkbox {
+      position: absolute;
+      z-index: -1;
+      opacity: 0; }
