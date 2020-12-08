@@ -1,26 +1,100 @@
 .filter-catalog
     background: url('../images/filter-banner.png') no-repeat center
+    height: 150px
     .filter-up
         padding-top: 33px
-        .custom-checkbox 
-            position: absolute
-            z-index: -1
-            opacity: 0
-        .custom-checkbox
-            display: inline-flex
-            align-items: center
-            user-select: none
-            &:before
-                content: ''
-                display: inline-block
-                width: 1em
-                height: 1em
-                flex-shrink: 0
-                flex-grow: 0
-                border: 1px solid #adb5bd
-                border-radius: 0.25em
-                margin-right: 0.5em
-                background-repeat: no-repeat
-                background-position: center center
-                background-size: 50% 50%
-
+        .filter-up-width
+            width: 18%
+            .custom-checkbox
+                position: absolute
+                z-index: -1
+                opacity: 0
+                & + label
+                    display: inline-flex
+                    align-items: center
+                    user-select: none
+                    
+                    &:before
+                        content: ''
+                        display: inline-block
+                        width: 15px
+                        height: 15px
+                        flex-shrink: 0
+                        flex-grow: 0
+                        border: 1px solid $red
+                        margin-right: 4px
+                        margin-left: 4px
+                        background-repeat: no-repeat
+                        background-position: center center
+                        background-size: 50% 50%
+                &:checked + label 
+                    &:before
+                        background-color: $red
+                        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e")
+            .custom-checkbox-style
+                margin-left: 15px
+            .custom-radio
+                position: absolute
+                z-index: -1
+                opacity: 0
+                & + label
+                    display: inline-flex
+                    align-items: center
+                    user-select: none
+                    &:before
+                        content: ''
+                        display: inline-block
+                        width: 15px
+                        height: 15px
+                        flex-shrink: 0
+                        flex-grow: 0
+                        border: 1px solid $red
+                        margin-right: 4px
+                        margin-left: 4px
+                        background-repeat: no-repeat
+                        background-position: center center
+                        border-radius: 100%
+                &:checked + label 
+                    &:before
+                        border-color: #ffffff 
+                        background-color: $red
+        .filter-up-position
+            margin-top: 12px
+            .spisok-style
+                width: 107px
+                height: 32px
+                color: $text
+                border: none
+                cursor: pointer
+                &:focus
+                    outline: none
+            .filter-up-btn
+                margin-left: 18px
+                background: #ffffff00
+                border: 1px solid $text
+                color: $text
+                width: 105px
+                height: 31px
+                font-weight: 500
+                font-size: 14px
+                line-height: 16px
+                &:hover
+                    background-color: #ffffff5e
+                &:focus
+                    outline: none
+    .filter-down
+        margin-top: 12px
+        .filter-down-serch
+            width: 433px
+            height: 27px
+            border: none
+            &:focus
+                outline: none
+        .filter-down-serch-btn
+            margin-left: -25px
+            width: 16px
+            height: 16px
+            border: none
+            background: url('../images/icon/btn-search.svg') no-repeat center
+            &:focus
+                outline: none
