@@ -9105,6 +9105,10 @@ body {
   line-height: 28px;
   margin: 46px 0; }
 
+.animal-card-images {
+  width: 400px;
+  height: 350px; }
+
 .animal-stat {
   margin-bottom: 70px; }
   .animal-stat .animal-param-block {
@@ -9124,6 +9128,7 @@ body {
       line-height: 21px; }
 
 .request-button {
+  z-index: 10;
   padding: 10px 70px;
   color: #ffffff;
   font-style: normal;
