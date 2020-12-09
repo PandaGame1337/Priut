@@ -40,7 +40,7 @@ gulp.task("sass", function(param) {
 
 //pug
 gulp.task('pug', function(param) {
-    return gulp.src('src/*.pug')
+    return gulp.src('src/**/*.pug')
         .pipe(pug({ pretty: true }))
         .on('error', function(err) {
             console.log(err);
@@ -106,7 +106,7 @@ gulp.task('browser-sync', function(param) {
 
 //Обновление файлов в режиме реального времени
 gulp.task('watch', function(param) {
-    gulp.watch('src/style/*.sass', gulp.series('sass'));
+    gulp.watch('src/style/**/*.sass', gulp.series('sass'));
     gulp.watch('src/**/*.pug', gulp.series('pug'));
     gulp.watch('src/js/*.js', gulp.series('scripts'));
     gulp.watch('src/images/**/*', gulp.series('images'));
