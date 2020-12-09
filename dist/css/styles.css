@@ -9141,3 +9141,74 @@ body {
   .request-button:hover {
     color: #ffffff;
     background: #fa3e4e; }
+
+.application-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #515151;
+  margin-bottom: 60px; }
+
+.application-block {
+  border: 1px solid #515151;
+  width: 754px;
+  height: 580px;
+  margin-left: 194px;
+  margin-bottom: 88px; }
+  .application-block .application-block-title {
+    margin-top: 50px;
+    margin-bottom: 95px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #515151; }
+  .application-block .application-block-form {
+    margin-left: 77px; }
+    .application-block .application-block-form .application-block-form-text {
+      margin-bottom: 7px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 15px;
+      color: #515151; }
+    .application-block .application-block-form .application-form-input {
+      margin-bottom: 30px;
+      width: 240px;
+      height: 40px;
+      border: 1px solid #9A9A9A; }
+      .application-block .application-block-form .application-form-input:focus {
+        outline: none; }
+  .application-block .application-block-card-images {
+    width: 280px;
+    margin-left: 40px; }
+    .application-block .application-block-card-images .application-images {
+      width: 280px;
+      height: 220px; }
+    .application-block .application-block-card-images .application-block-card-icon {
+      position: absolute; }
+      .application-block .application-block-card-images .application-block-card-icon .application-icon {
+        position: relative;
+        left: 230px;
+        bottom: 55px; }
+    .application-block .application-block-card-images .application-block-card-name {
+      margin: 5px 0 0 0;
+      text-align: center;
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 28px;
+      color: #515151; }
+  .application-block .application-button-submit {
+    background: #E63946;
+    border: none;
+    padding: 14px 48px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 43px;
+    margin-left: 252px; }
+    .application-block .application-button-submit:focus {
+      outline: none; }
+    .application-block .application-button-submit:hover {
+      background-color: #fa3e4e; }

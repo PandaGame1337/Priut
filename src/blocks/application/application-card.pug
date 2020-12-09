@@ -1,0 +1,25 @@
+section.bread-crumb
+    .container
+        p.bread-crumb-style Главная \ Найти друга \ Озик \ Оставить заявку
+section.application
+    .container
+        h1.application-title Оставить заявку:
+        .application-block
+            p.application-block-title В скором времени с вами свяжутся
+            form(action="")
+                .row.m-0
+                    .col-4.application-block-form
+                        p.application-block-form-text Ваше ФИО:
+                        input.application-form-input(type="text" placeholder=" Готлиб Артем Артемович")
+                        p.application-block-form-text E-mail:
+                        input.application-form-input(type="email" placeholder=" example@mail.ru")
+                        p.application-block-form-text Телефон:
+                        input.application-form-input(type="text" placeholder=" +7 800 555 35 35")
+                    .col.application-block-card
+                        .application-block-card-images
+                            img.application-images(src="images/ozik-1.png", alt="")
+                            .application-block-card-icon
+                                img.application-icon(src="images/icon/paw-logo.svg", alt="")
+                            p.application-block-card-name Озик
+                .row.p-0.m-0.application-button
+                    button.application-button-submit(type="submit") Отправить заявку
