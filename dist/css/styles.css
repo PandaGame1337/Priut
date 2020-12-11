@@ -9220,6 +9220,89 @@ body {
     .application-block .application-button-submit:hover {
       background-color: #fa3e4e; }
 
+.donation-information-title {
+  font-size: 20px;
+  line-height: 135%;
+  color: #E63946;
+  text-align: left;
+  margin-bottom: 15px; }
+
+.donation-information-text {
+  font-size: 18px;
+  line-height: 135%;
+  color: #515151;
+  font-weight: normal;
+  text-align: left; }
+
+.donation-information-block-bank {
+  margin-left: 20px;
+  margin-top: 54px;
+  width: 530px;
+  height: 200px;
+  border: 2px solid #515151;
+  border-bottom: 2px solid #E63946; }
+  .donation-information-block-bank .donation-information-block-sberbank-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 16px; }
+  .donation-information-block-bank .donation-information-block-bank-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #515151;
+    margin: 10px 0 0 15px; }
+  .donation-information-block-bank .donation-information-block-sberbank-text {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #E63946;
+    text-align: center;
+    margin-top: 38px; }
+  .donation-information-block-bank .donation-information-block-bank-text-block {
+    margin-top: 18px; }
+    .donation-information-block-bank .donation-information-block-bank-text-block .donation-information-block-bank-text {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: #515151;
+      margin: 0; }
+    .donation-information-block-bank .donation-information-block-bank-text-block .donation-information-block-bank-text-red {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: #E63946;
+      margin: 0; }
+
+.donation-information-block-perevod {
+  margin: 44px 0 95px 305px;
+  width: 530px;
+  height: 130px;
+  border: 2px solid #515151;
+  border-bottom: 2px solid #E63946; }
+  .donation-information-block-perevod .donation-information-block-perevod-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #515151;
+    margin: 20px 44px 30px 25px; }
+  .donation-information-block-perevod .btn-information-perevod {
+    margin-left: 190px;
+    padding: 8px 38px;
+    background-color: #E63946;
+    color: #ffffff; }
+    .donation-information-block-perevod .btn-information-perevod:hover {
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #fa3e4e; }
+
 .about-us-text {
   color: #515151;
   font-style: normal;
