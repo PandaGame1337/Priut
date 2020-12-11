@@ -9105,6 +9105,10 @@ body {
   line-height: 28px;
   margin: 46px 0; }
 
+.animal-card-images {
+  width: 400px;
+  height: 350px; }
+
 .animal-stat {
   margin-bottom: 70px; }
   .animal-stat .animal-param-block {
@@ -9124,6 +9128,7 @@ body {
       line-height: 21px; }
 
 .request-button {
+  z-index: 10;
   padding: 10px 70px;
   color: #ffffff;
   font-style: normal;
@@ -9135,10 +9140,12 @@ body {
   position: absolute;
   bottom: 0;
   left: 200px;
-  border: none; }
+  border: none;
+  width: 335px; }
   .request-button:focus {
     outline: none; }
   .request-button:hover {
+    text-decoration: none;
     color: #ffffff;
     background: #fa3e4e; }
 
@@ -9213,6 +9220,7 @@ body {
     .application-block .application-button-submit:hover {
       background-color: #fa3e4e; }
 
+<<<<<<< HEAD
 .donation-information-title {
   font-size: 20px;
   line-height: 135%;
@@ -9295,3 +9303,117 @@ body {
       text-decoration: none;
       color: #ffffff;
       background-color: #fa3e4e; }
+=======
+.about-us-text {
+  color: #515151;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 135%; }
+
+.detention-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .detention-block .about-us-text-style {
+    width: 350px;
+    margin: 20px 0 0 80px;
+    line-height: 150%; }
+  .detention-block .detention-block-info {
+    margin: 0 80px 0 0; }
+    .detention-block .detention-block-info .detention-blocks {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .detention-block .detention-block-info .detention-blocks .detention-blocks-img {
+        margin: 0 10px 20px 0; }
+
+.about-us-banner {
+  background: url("../images/contacts-banner.png") no-repeat center;
+  height: 300px; }
+
+.our-contacts-lc,
+.our-contacts-rc {
+  margin-top: 55px; }
+
+.contacts-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.contacts-block-style {
+  margin-top: 15px; }
+
+.our-contacts-text {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%; }
+
+.our-contacts-img {
+  margin: 0 0 15px 20px; }
+
+.our-sn-img {
+  margin: 0 0 0 20px; }
+
+.our-adress-img {
+  margin: 0 0 5px 15px; }
+
+.our-adress-head {
+  color: #515151;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 135%; }
+
+.our-adress-text-column {
+  margin-top: 35px;
+  width: 470px; }
+
+.our-adress-map-column {
+  width: 560px;
+  height: 300px; }
+
+.about-us-maps-style {
+  margin: 45px 0; }
+
+.news-head-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px; }
+
+.news-date-block {
+  margin-top: 13px; }
+
+.news-title-style {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #515151;
+  text-align: center;
+  margin: 10px; }
+
+.news-date-style {
+  padding: 3px 5px 3px 5px;
+  display: inline;
+  background-color: #E63946;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF; }
+
+.news-content-style {
+  color: #515151;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 135%; }
+>>>>>>> a352aef31d73bf0b974fc769c09a52766312c699
