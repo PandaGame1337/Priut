@@ -9296,3 +9296,39 @@ body {
 
 .about-us-maps-style {
   margin: 45px 0; }
+
+.news-head-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px; }
+
+.news-date-block {
+  margin-top: 13px; }
+
+.news-title-style {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #515151;
+  text-align: center;
+  margin: 10px; }
+
+.news-date-style {
+  padding: 3px 5px 3px 5px;
+  display: inline;
+  background-color: #E63946;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF; }
+
+.news-content-style {
+  color: #515151;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 135%; }
