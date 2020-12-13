@@ -8487,13 +8487,14 @@ a.text-dark:hover, a.text-dark:focus {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1; }
-    .main-nav-style .main-navbar-style .nav-link {
+    .main-nav-style .main-navbar-style .nav-link-style {
+      margin: 8px 0 0 30px;
       color: #000000;
       font-size: 16px;
       position: relative; }
-      .main-nav-style .main-navbar-style .nav-link:hover {
+      .main-nav-style .main-navbar-style .nav-link-style:hover {
         color: #E63946; }
-      .main-nav-style .main-navbar-style .nav-link:after {
+      .main-nav-style .main-navbar-style .nav-link-style:after {
         content: '';
         width: 0;
         border-bottom: 2px solid #E63946;
@@ -8502,10 +8503,8 @@ a.text-dark:hover, a.text-dark:focus {
         bottom: -2px;
         -webkit-transition: all 0.2s ease;
         transition: all 0.2s ease; }
-      .main-nav-style .main-navbar-style .nav-link:hover:after {
+      .main-nav-style .main-navbar-style .nav-link-style:hover:after {
         width: 100%; }
-    .main-nav-style .main-navbar-style .nav-link-style {
-      margin: 8px 0 0 30px; }
   .main-nav-style .number-phone {
     color: #000000;
     margin-left: 3px;
@@ -8524,7 +8523,23 @@ a.text-dark:hover, a.text-dark:focus {
     .main-footer-style .footer-item .footer-nav-item-style {
       margin: 10px 0 10px 0; }
       .main-footer-style .footer-item .footer-nav-item-style .footer-nav-link {
+        color: #000000;
+        font-size: 16px;
+        position: relative;
         display: inline; }
+        .main-footer-style .footer-item .footer-nav-item-style .footer-nav-link:hover {
+          color: #E63946; }
+        .main-footer-style .footer-item .footer-nav-item-style .footer-nav-link:after {
+          content: '';
+          width: 0;
+          border-bottom: 2px solid #E63946;
+          position: absolute;
+          left: 0;
+          bottom: -2px;
+          -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease; }
+        .main-footer-style .footer-item .footer-nav-item-style .footer-nav-link:hover:after {
+          width: 100%; }
     .main-footer-style .footer-item .nav-footer-style {
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
@@ -9528,3 +9543,78 @@ body {
 
 .auth-input-style {
   margin: 5px 125px; }
+
+.admin-nav-style {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start; }
+  .admin-nav-style .admin-navbar-style {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
+    .admin-nav-style .admin-navbar-style .admin-nav-link-style {
+      margin: 0 0 0 30px;
+      color: #000000;
+      font-size: 16px;
+      position: relative; }
+      .admin-nav-style .admin-navbar-style .admin-nav-link-style:hover {
+        color: #5A75FF; }
+      .admin-nav-style .admin-navbar-style .admin-nav-link-style:after {
+        content: '';
+        width: 0;
+        border-bottom: 2px solid #5A75FF;
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease; }
+      .admin-nav-style .admin-navbar-style .admin-nav-link-style:hover:after {
+        width: 100%; }
+  .admin-nav-style .exit-text {
+    color: #000000;
+    margin-left: 3px;
+    text-decoration: none; }
+
+.admin-footer {
+  border-top: 1px solid #515151; }
+
+.admin-footer-style {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .admin-footer-style .footer-item {
+    width: 210px;
+    margin: 50px 0 50px 0; }
+    .admin-footer-style .footer-item .footer-nav-item-style {
+      margin: 10px 0 10px 0; }
+      .admin-footer-style .footer-item .footer-nav-item-style .admin-nav-link-style {
+        color: #000000;
+        font-size: 16px;
+        position: relative;
+        display: inline; }
+        .admin-footer-style .footer-item .footer-nav-item-style .admin-nav-link-style:hover {
+          color: #5A75FF; }
+        .admin-footer-style .footer-item .footer-nav-item-style .admin-nav-link-style:after {
+          content: '';
+          width: 0;
+          border-bottom: 2px solid #5A75FF;
+          position: absolute;
+          left: 0;
+          bottom: -2px;
+          -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease; }
+        .admin-footer-style .footer-item .footer-nav-item-style .admin-nav-link-style:hover:after {
+          width: 100%; }
+    .admin-footer-style .footer-item .our-adress {
+      padding-top: 30px;
+      text-align: center; }
+    .admin-footer-style .footer-item .our-contacts-footer {
+      text-align: center; }
+
+.footer-copyright {
+  background-color: #515151; }
+  .footer-copyright .footer-copyright-text {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 0 20px 0; }
