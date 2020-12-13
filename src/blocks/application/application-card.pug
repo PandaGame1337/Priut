@@ -9,12 +9,18 @@ section.application
             form(action="")
                 .row.m-0
                     .col-4.application-block-form
-                        p.application-block-form-text Ваше ФИО:
-                        input.application-form-input(type="text" placeholder=" Готлиб Артем Артемович")
-                        p.application-block-form-text E-mail:
-                        input.application-form-input(type="email" placeholder=" example@mail.ru")
-                        p.application-block-form-text Телефон:
-                        input.application-form-input(type="text" placeholder=" +7 800 555 35 35")   
+                        .app-input.app-input-style
+                            input(type='text', name='login', required='')
+                            label.app-label Ваше ФИО:
+                            span.line
+                        .app-input.app-input-style
+                            input(type='text', name='login', required='')
+                            label.app-label E-mail:
+                            span.line
+                        .app-input.app-input-style
+                            input(type='text', name='login', required='')
+                            label.app-label Телефон:
+                            span.line
                     .col.application-block-card
                         .application-block-card-images
                             img.application-images(src="images/ozik-1.png", alt="")

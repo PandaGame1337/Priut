@@ -9172,20 +9172,9 @@ body {
     line-height: 28px;
     color: #515151; }
   .application-block .application-block-form {
-    margin-left: 77px; }
-    .application-block .application-block-form .application-block-form-text {
-      margin-bottom: 7px;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 15px;
-      color: #515151; }
-    .application-block .application-block-form .application-form-input {
-      margin-bottom: 30px;
-      width: 240px;
-      height: 40px;
-      border: 1px solid #9A9A9A; }
-      .application-block .application-block-form .application-form-input:focus {
-        outline: none; }
+    margin-left: 40px; }
+  .application-block .application-block-card {
+    margin-left: 60px; }
   .application-block .application-block-card-images {
     width: 280px;
     margin-left: 40px; }
@@ -9219,6 +9208,55 @@ body {
       outline: none; }
     .application-block .application-button-submit:hover {
       background-color: #fa3e4e; }
+
+.app-input {
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+  padding-top: 15px; }
+  .app-input input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #999999;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 16px;
+    position: relative;
+    z-index: 5;
+    background: none; }
+    .app-input input:focus ~ .line {
+      left: 0;
+      opacity: 1; }
+  .app-input .line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background: #E63946;
+    left: -999px;
+    -webkit-transition: .25s;
+    transition: .25s;
+    opacity: 0;
+    z-index: 6; }
+  .app-input label {
+    position: absolute;
+    left: 10px;
+    top: 45%;
+    -webkit-transition: ease-out .15s;
+    transition: ease-out .15s;
+    color: #999999; }
+
+.app-input input:focus ~ .app-label, input:valid ~ .app-label {
+  top: 0px;
+  -webkit-transform: scale(0.94) translateX(-2px);
+          transform: scale(0.94) translateX(-2px);
+  color: #E63946; }
+
+.app-input-style {
+  margin: 5px; }
 
 .donation-information-title {
   font-size: 20px;
