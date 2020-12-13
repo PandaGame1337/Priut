@@ -1,0 +1,67 @@
+.auth-form-style
+    width: 550px
+    height: 400px
+    margin: 250px auto
+    border: 1px solid $text
+    .align-items-auth
+        text-align: center
+        .auth-img
+            margin: 50px 12px 0 0
+        .auth-input-style
+            width: 400px
+            margin: 30px 0
+        .auth-btn-style
+            background: $admin-color
+            border: none
+            padding: 10px 50px
+            font-weight: 500
+            font-size: 18px
+            line-height: 21px
+            color: #FFFFFF
+            margin-top: 40px
+            &:focus
+                outline: none
+            &:hover
+                background-color: #6981FF
+.auth-input
+	width: 300px
+	position: relative
+	overflow: hidden
+	padding-top: 15px
+	input 
+		width: 100%
+		padding: 10px
+		border: none
+		outline: none
+		border-bottom: 1px solid #999999
+		box-sizing: border-box
+		font-size: 16px
+		position: relative
+		z-index: 5
+		background: none
+		&:focus ~ .line 
+			left: 0
+			opacity: 1
+	.line 
+		position: absolute
+		left: 0
+		bottom: 0
+		width: 100%
+		height: 3px
+		background: $admin-color
+		left: -999px
+		transition: .25s
+		opacity: 0
+		z-index: 6
+	label 
+		position: absolute
+		left: 10px
+		top: 45%
+		transition: ease-out .15s
+		color: #999999
+.auth-input input:focus ~ .auth-label, input:valid ~ .auth-label 
+	top: 0px
+	transform: scale(0.94) translateX(-2px)
+	color: $admin-color
+.auth-input-style
+    margin: 5px 125px

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Авторизация</title>
+    <!--css-->
+    <link rel="stylesheet" href="./css/styles.min.css"/>
+    <!--ff-->
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--animal-card-->
+      <section class="auth-form">
+        <div class="container">
+          <form class="auth-form-style" action="obr_auth.php" method="post">
+            <div class="align-items-auth"><img class="auth-img" src="images/logo-admin.svg" alt="Приют НН Админ-панель"/></div>
+            <div class="auth-input auth-input-style">
+              <input type="text" name="login" required=""/>
+              <label class="auth-label">Логин</label><span class="line"></span>
+            </div>
+            <div class="auth-input auth-input-style">
+              <input type="password" name="password" required=""/>
+              <label class="auth-label">Пароль</label><span class="line"></span>
+            </div>
+            <div class="align-items-auth">
+              <button class="auth-btn-style" type="submit">Войти</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!--end animal-card-->
+    </div>
+  </body>
+</html>
