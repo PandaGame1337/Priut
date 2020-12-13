@@ -1,0 +1,99 @@
+
+<section class="admin-filters">
+  <div class="container">
+    <div class="row">
+      <form class="col-8 row" action="">
+        <div class="col-1 admin-filter-item ml-0">
+          <select class="admin-filter-list">
+            <option>Возраст</option>
+            <option>менее 1 года</option>
+            <option>2 года</option>
+            <option>3 года</option>
+            <option>4 года</option>
+            <option>более 5 лет</option>
+          </select>
+          <button class="admin-filter-btn" type="submit">Применить</button>
+        </div>
+        <div class="col-1 admin-filter-item">
+          <p class="admin-filter-head">Тип:</p>
+          <div class="admin-filter-checkbox">
+            <label class="m-0">
+              <input type="checkbox" name="check" required=""/><span class="checkbox-admin-filter"></span><span class="admin-filter-label">Собака</span>
+            </label>
+          </div>
+          <div class="admin-filter-checkbox">
+            <label class="m-0">
+              <input type="checkbox" name="check" required=""/><span class="checkbox-admin-filter"></span><span class="admin-filter-label">Кошка</span>
+            </label>
+          </div>
+        </div>
+        <div class="col-1 admin-filter-item">
+          <p class="admin-filter-head">Пол:</p>
+          <div class="admin-filter-radio">
+            <label class="m-0">
+              <input name="radio" type="radio" required="" checked=""/><span class="radio-admin-filter"></span><span class="admin-filter-label">Мужской</span>
+            </label>
+          </div>
+          <div class="admin-filter-radio">
+            <label class="m-0">
+              <input name="radio" type="radio" required="" checked=""/><span class="radio-admin-filter"></span><span class="admin-filter-label">Женский</span>
+            </label>
+          </div>
+        </div>
+        <div class="col-1 admin-filter-item">
+          <p class="admin-filter-head">Стерилизация:</p>
+          <div class="admin-filter-radio">
+            <label class="m-0">
+              <input name="radio" type="radio" required="" checked=""/><span class="radio-admin-filter"></span><span class="admin-filter-label">Да</span>
+            </label>
+          </div>
+          <div class="admin-filter-radio">
+            <label class="m-0">
+              <input name="radio" type="radio" required="" checked=""/><span class="radio-admin-filter"></span><span class="admin-filter-label">Нет</span>
+            </label>
+          </div>
+        </div>
+        <div class="col-1 admin-filter-item">
+          <p class="admin-filter-head">Прививки:</p>
+          <div class="admin-filter-radio">
+            <label class="m-0">
+              <input name="radio" type="radio" required="" checked=""/><span class="radio-admin-filter"></span><span class="admin-filter-label">Да</span>
+            </label>
+          </div>
+          <div class="admin-filter-radio">
+            <label class="m-0">
+              <input name="radio" type="radio" required="" checked=""/><span class="radio-admin-filter"></span><span class="admin-filter-label">Нет</span>
+            </label>
+          </div>
+        </div>
+        <div class="col-1 admin-filter-item">
+          <p class="admin-filter-head">Документы:</p>
+          <div class="admin-filter-radio">
+            <label class="m-0">
+              <input name="radio" type="radio" required="" checked=""/><span class="radio-admin-filter"></span><span class="admin-filter-label">Да</span>
+            </label>
+          </div>
+          <div class="admin-filter-radio">
+            <label class="m-0">
+              <input name="radio" type="radio" required="" checked=""/><span class="radio-admin-filter"></span><span class="admin-filter-label">Нет</span>
+            </label>
+          </div>
+        </div>
+      </form>
+      <div class="col admin-filter-search-style">
+        <form class="admin-filter-position-style">
+          <input class="admin-filter-search" type="text" placeholder="Поиск по ID"/>
+          <button class="search-icon-btn" type="submit"></button>
+        </form>
+        <form class="admin-filter-position-style">
+          <input class="admin-filter-search" type="text" placeholder="Поиск по породе"/>
+          <button class="search-icon-btn" type="submit"></button>
+        </form>
+        <form class="admin-filter-position-style">
+          <input class="admin-filter-search" type="text" placeholder="Поиск по кличке"/>
+          <button class="search-icon-btn" type="submit"></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

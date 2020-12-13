@@ -1,0 +1,83 @@
+section.admin-filters
+    .container
+        .row
+            form.col-8.row(action="")
+                .col-1.admin-filter-item.ml-0
+                    select.admin-filter-list
+                        option Возраст
+                        option менее 1 года
+                        option 2 года
+                        option 3 года
+                        option 4 года
+                        option более 5 лет
+                    button.admin-filter-btn(type="submit") Применить
+                .col-1.admin-filter-item
+                    p.admin-filter-head Тип:
+                    .admin-filter-checkbox
+                        label.m-0
+                            input(type='checkbox', name='check', required='')
+                            span.checkbox-admin-filter
+                            span.admin-filter-label Собака
+                    .admin-filter-checkbox
+                        label.m-0
+                            input(type='checkbox', name='check', required='')
+                            span.checkbox-admin-filter
+                            span.admin-filter-label Кошка
+                .col-1.admin-filter-item
+                    p.admin-filter-head Пол:
+                    .admin-filter-radio
+                        label.m-0
+                            input(name='radio', type='radio', required='', checked='')
+                            span.radio-admin-filter
+                            span.admin-filter-label Мужской
+                    .admin-filter-radio
+                        label.m-0
+                            input(name='radio', type='radio', required='', checked='')
+                            span.radio-admin-filter
+                            span.admin-filter-label Женский
+                .col-1.admin-filter-item
+                    p.admin-filter-head Стерилизация:
+                    .admin-filter-radio
+                        label.m-0
+                            input(name='radio', type='radio', required='', checked='')
+                            span.radio-admin-filter
+                            span.admin-filter-label Да
+                    .admin-filter-radio
+                        label.m-0
+                            input(name='radio', type='radio', required='', checked='')
+                            span.radio-admin-filter
+                            span.admin-filter-label Нет
+                .col-1.admin-filter-item
+                    p.admin-filter-head Прививки:
+                    .admin-filter-radio
+                        label.m-0
+                            input(name='radio', type='radio', required='', checked='')
+                            span.radio-admin-filter
+                            span.admin-filter-label Да
+                    .admin-filter-radio
+                        label.m-0
+                            input(name='radio', type='radio', required='', checked='')
+                            span.radio-admin-filter
+                            span.admin-filter-label Нет
+                .col-1.admin-filter-item
+                    p.admin-filter-head Документы:
+                    .admin-filter-radio
+                        label.m-0
+                            input(name='radio', type='radio', required='', checked='')
+                            span.radio-admin-filter
+                            span.admin-filter-label Да
+                    .admin-filter-radio
+                        label.m-0
+                            input(name='radio', type='radio', required='', checked='')
+                            span.radio-admin-filter
+                            span.admin-filter-label Нет
+            .col.admin-filter-search-style
+                form.admin-filter-position-style
+                    input.admin-filter-search(type="text" placeholder="Поиск по ID")
+                    button.search-icon-btn(type="submit")
+                form.admin-filter-position-style
+                    input.admin-filter-search(type="text" placeholder="Поиск по породе")
+                    button.search-icon-btn(type="submit")
+                form.admin-filter-position-style
+                    input.admin-filter-search(type="text" placeholder="Поиск по кличке")
+                    button.search-icon-btn(type="submit")

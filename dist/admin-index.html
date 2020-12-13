@@ -31,8 +31,121 @@
       </header>
       <!--end header-->
       <!--admin-filters-->
+      <section class="admin-filters">
+        <div class="container">
+          <div class="row">
+            <form class="col-8 row" action="">
+              <div class="col-1 admin-filter-item ml-0">
+                <select class="admin-filter-list">
+                  <option>Возраст</option>
+                  <option>менее 1 года</option>
+                  <option>2 года</option>
+                  <option>3 года</option>
+                  <option>4 года</option>
+                  <option>более 5 лет</option>
+                </select>
+                <button class="admin-filter-btn" type="submit">Применить</button>
+              </div>
+              <div class="col-1 admin-filter-item">
+                <p class="admin-filter-head">Тип:</p>
+                <div class="admin-filter-checkbox">
+                  <label class="m-0">
+                    <input type="checkbox" name="check" required=""/><span class="checkbox-admin-filter"></span><span class="admin-filter-label">Собака</span>
+                  </label>
+                </div>
+                <div class="admin-filter-checkbox">
+                  <label class="m-0">
+                    <input type="checkbox" name="check" required=""/><span class="checkbox-admin-filter"></span><span class="admin-filter-label">Кошка</span>
+                  </label>
+                </div>
+              </div>
+              <div class="col-1 admin-filter-item">
+                <p class="admin-filter-head">Пол:</p>
+                <div class="admin-filter-radio">
+                  <label class="m-0">
+                    <input name="radio" type="radio" required="" checked=""/><span class="radio-admin-filter"></span><span class="admin-filter-label">Мужской</span>
+                  </label>
+                </div>
+                <div class="admin-filter-radio">
+                  <label class="m-0">
+                    <input name="radio" type="radio" required="" checked=""/><span class="radio-admin-filter"></span><span class="admin-filter-label">Женский</span>
+                  </label>
+                </div>
+              </div>
+              <div class="col-1 admin-filter-item">
+                <p class="admin-filter-head">Стерилизация:</p>
+                <div class="admin-filter-radio">
+                  <label class="m-0">
+                    <input name="radio" type="radio" required="" checked=""/><span class="radio-admin-filter"></span><span class="admin-filter-label">Да</span>
+                  </label>
+                </div>
+                <div class="admin-filter-radio">
+                  <label class="m-0">
+                    <input name="radio" type="radio" required="" checked=""/><span class="radio-admin-filter"></span><span class="admin-filter-label">Нет</span>
+                  </label>
+                </div>
+              </div>
+              <div class="col-1 admin-filter-item">
+                <p class="admin-filter-head">Прививки:</p>
+                <div class="admin-filter-radio">
+                  <label class="m-0">
+                    <input name="radio" type="radio" required="" checked=""/><span class="radio-admin-filter"></span><span class="admin-filter-label">Да</span>
+                  </label>
+                </div>
+                <div class="admin-filter-radio">
+                  <label class="m-0">
+                    <input name="radio" type="radio" required="" checked=""/><span class="radio-admin-filter"></span><span class="admin-filter-label">Нет</span>
+                  </label>
+                </div>
+              </div>
+              <div class="col-1 admin-filter-item">
+                <p class="admin-filter-head">Документы:</p>
+                <div class="admin-filter-radio">
+                  <label class="m-0">
+                    <input name="radio" type="radio" required="" checked=""/><span class="radio-admin-filter"></span><span class="admin-filter-label">Да</span>
+                  </label>
+                </div>
+                <div class="admin-filter-radio">
+                  <label class="m-0">
+                    <input name="radio" type="radio" required="" checked=""/><span class="radio-admin-filter"></span><span class="admin-filter-label">Нет</span>
+                  </label>
+                </div>
+              </div>
+            </form>
+            <div class="col admin-filter-search-style">
+              <form class="admin-filter-position-style">
+                <input class="admin-filter-search" type="text" placeholder="Поиск по ID"/>
+                <button class="search-icon-btn" type="submit"></button>
+              </form>
+              <form class="admin-filter-position-style">
+                <input class="admin-filter-search" type="text" placeholder="Поиск по породе"/>
+                <button class="search-icon-btn" type="submit"></button>
+              </form>
+              <form class="admin-filter-position-style">
+                <input class="admin-filter-search" type="text" placeholder="Поиск по кличке"/>
+                <button class="search-icon-btn" type="submit"></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
       <!--end admin-filters-->
       <!--admin-filters-->
+      <section class="catalog">
+        <div class="container">
+          <div class="row">
+            <div class="catalog-cards row">
+              <div class="catalog-cards-img col-6 p-0"><img class="cards-img" src="images/ozik-1.png" alt=""/></div>
+              <div class="catalog-cards-text col-6 p-0">
+                <p class="admin-catalog-card-text-title">Озик</p>
+                <p class="admin-catalog-card-text-info">Пол: <span>Мужской</span></p>
+                <p class="admin-catalog-card-text-info">Возраст: <span>5 месяцев</span></p>
+                <div class="admin-btn-catalog-div"><a class="admin-btn-catalog-style" href="card.html">Подробнее</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!--end admin-filters-->
       <!--footer-->
       <footer class="admin-footer">
@@ -40,10 +153,10 @@
           <div class="navbar-collapse nav main-nav-style admin-footer-style">
             <section class="footer-item">
               <ul class="nav navbar-nav main-navbar-style">
-                <li class="nav-item footer-nav-item-style"><a class="nav-link admin-nav-link-style p-0" href="">Найти друга</a></li>
-                <li class="nav-item footer-nav-item-style"><a class="nav-link admin-nav-link-style p-0" href="">Информация</a></li>
-                <li class="nav-item footer-nav-item-style"><a class="nav-link admin-nav-link-style p-0" href="">О нас</a></li>
-                <li class="nav-item footer-nav-item-style"><a class="nav-link admin-nav-link-style p-0" href="">Пожертвования</a></li>
+                <li class="nav-item footer-nav-item-style"><a class="nav-link admin-nav-link-style p-0" href="">Просмотр заявок</a></li>
+                <li class="nav-item footer-nav-item-style"><a class="nav-link admin-nav-link-style p-0" href="">Просмотр сообщений</a></li>
+                <li class="nav-item footer-nav-item-style"><a class="nav-link admin-nav-link-style p-0" href="">Редактор новостей</a></li>
+                <li class="nav-item footer-nav-item-style"><a class="nav-link admin-nav-link-style p-0" href="">Новая карточка</a></li>
               </ul>
             </section>
             <section class="footer-item"><a href=""><img src="images/logo-admin.svg" alt="Логотип Админ-панели Приют НН"/></a></section>
