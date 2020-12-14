@@ -13,7 +13,8 @@ header.admin-header
                     li.nav-item
                         a.nav-link.admin-nav-link-style.p-0(href="about.html") Редактор новостей
                     li.nav-item
-                        a.nav-link.admin-nav-link-style.p-0(href="donations.html") Новая карточка
-                .nav-exit
-                    img(src="images/icon/exit.svg")
-                    a.exit-text(href="") Выход
+                        a.nav-link.admin-nav-link-style.p-0(href="admin-new-card.html") Новая карточка
+                form(action="obr_exit.php" method="post")
+                    .nav-exit
+                        img(src="images/icon/exit.svg")
+                        button.exit-text Выход

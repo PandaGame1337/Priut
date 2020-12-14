@@ -9075,6 +9075,21 @@ body {
       color: #ffffff;
       background-color: #fa3e4e; }
 
+.animals-not-found {
+  margin: 50px 0; }
+
+.animals-not-found-text {
+  color: #515151;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 135%; }
+
+.exit-text {
+  background-color: #0f667400;
+  border: none; }
+
 .bread-crumb {
   border-top: 1px solid #515151; }
 
