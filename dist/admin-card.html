@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Редактор карточки животного</title>
+    <!--css-->
+    <link rel="stylesheet" href="./css/styles.min.css"/>
+    <!--ff-->
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--header-->
+      <header class="admin-header">
+        <nav class="navbar navbar-expand-sm main-navigation">
+          <div class="container">
+            <div class="navbar-collapse admin-nav-style">
+              <div class="nav-image"><a href="admin-index.html"><img src="images/logo-admin.svg" alt="Логотип Админ-панели Приют НН"/></a></div>
+              <ul class="nav navbar-nav admin-navbar-style">
+                <li class="nav-item"><a class="nav-link admin-nav-link-style p-0" href="catalog.html">Просмотр заявок</a></li>
+                <li class="nav-item"><a class="nav-link admin-nav-link-style p-0" href="information.html">Просмотр сообщений</a></li>
+                <li class="nav-item"><a class="nav-link admin-nav-link-style p-0" href="about.html">Редактор новостей</a></li>
+                <li class="nav-item"><a class="nav-link admin-nav-link-style p-0" href="donations.html">Новая карточка</a></li>
+              </ul>
+              <div class="nav-exit"><img src="images/icon/exit.svg"/><a class="exit-text" href="">Выход</a></div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!--end header-->
+      <!--admin-card-form-->
+      <section class="admin-animal-card">
+        <div class="container">
+          <h2 class="block-head">Редактировать животного:</h2>
+          <form action="">
+            <div class="admin-animal-card-df">
+              <div class="admin-animal-card-df admin-animal-card-style"><img class="admin-animal-card-fp" src="images/ozik-1.png" alt="Первое фото"/>
+                <div class="admin-animal-card-block"><img class="admin-animal-card-sp" src="images/ozik-2.png" alt="Второе фото"/><img class="admin-animal-card-sp" src="images/ozik-3.png" alt="Третье фото"/></div>
+              </div>
+              <div class="admin-animal-card-info admin-animal-card-style">
+                <input class="admin-animal-name" type="text" value="Озик" placeholder="Кличка животного"/>
+                <div class="admin-animal-card-df">
+                  <div class="admin-animal-card-stat-lc">
+                    <p class="admin-animal-card-stat-head">Возраст:</p>
+                    <div class="admin-animal-card-df admin-card-stat-block-style">
+                      <input class="admin-animal-card-stat-input" type="text" value="19/9/2020"/><img class="admin-animal-card-stat-img" src="images/admin-icon/calendar.svg" alt="Иконка календаря"/>
+                    </div>
+                    <p class="admin-animal-card-stat-head">Пол:</p>
+                    <div class="admin-animal-card-df admin-card-stat-block-style">
+                      <select class="admin-animal-card-stat-input">
+                        <option>Мужской</option>
+                        <option>Женский</option>
+                      </select><img class="admin-animal-card-stat-img" src="images/admin-icon/gender.svg" alt="Иконка пола"/>
+                    </div>
+                    <p class="admin-animal-card-stat-head">Окрас:</p>
+                    <div class="admin-animal-card-df admin-card-stat-block-style">
+                      <input class="admin-animal-card-stat-input" type="text" value="Темный"/><img class="admin-animal-card-stat-img" src="images/admin-icon/palette.svg" alt="Иконка палитры"/>
+                    </div>
+                    <p class="admin-animal-card-stat-head">Порода:</p>
+                    <div class="admin-animal-card-df admin-card-stat-block-style p-0">
+                      <select class="admin-animal-card-stat-input">
+                        <option>Метис</option>
+                        <option>Овчарка</option>
+                      </select><img class="admin-animal-card-stat-img" src="images/admin-icon/book.svg" alt="Иконка книги"/>
+                    </div>
+                  </div>
+                  <div class="admin-animal-card-stat-lc">
+                    <p class="admin-animal-card-stat-head">Шерсть:</p>
+                    <div class="admin-animal-card-df admin-card-stat-block-style">
+                      <select class="admin-animal-card-stat-input">
+                        <option>Короткая</option>
+                        <option>Прямая</option>
+                      </select><img class="admin-animal-card-stat-img" src="images/admin-icon/hairdresser.svg" alt="Иконка ножниц"/>
+                    </div>
+                    <p class="admin-animal-card-stat-head">Приучен к лотку:</p>
+                    <div class="admin-animal-card-df admin-card-stat-block-style">
+                      <select class="admin-animal-card-stat-input">
+                        <option>Да</option>
+                        <option>Нет</option>
+                      </select><img class="admin-animal-card-stat-img" src="images/admin-icon/toilet.svg" alt="Иконка туалета"/>
+                    </div>
+                    <p class="admin-animal-card-stat-head">Характер:</p>
+                    <div class="admin-animal-card-df admin-card-stat-block-style">
+                      <select class="admin-animal-card-stat-input">
+                        <option>Игривый</option>
+                        <option>Спокойный</option>
+                      </select><img class="admin-animal-card-stat-img" src="images/admin-icon/tennis-ball.svg" alt="Иконка мячика"/>
+                    </div>
+                    <p class="admin-animal-card-stat-head">Социализация:</p>
+                    <div class="admin-animal-card-df admin-card-stat-block-style p-0">
+                      <select class="admin-animal-card-stat-input">
+                        <option>Готов</option>
+                        <option>Не готов</option>
+                      </select><img class="admin-animal-card-stat-img" src="images/admin-icon/social.svg" alt="Иконка общества"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="admin-animal-card-bot-stat">
+              <div class="admin-animal-card-df">
+                <div class="admin-animal-card-bot-stat-lc">
+                  <p class="admin-animal-card-stat-head">Необходимые прививки:
+                    <div class="admin-animal-card-df admin-card-stat-block-style">
+                      <select class="admin-animal-card-stat-input">
+                        <option>Да</option>
+                        <option>Нет</option>
+                      </select><img class="admin-animal-card-stat-img admin-animal-card-stat-img-style" src="images/admin-icon/syringe.svg" alt="Иконка прививки"/>
+                    </div>
+                  </p>
+                  <p class="admin-animal-card-stat-head">Размер:
+                    <div class="admin-animal-card-df admin-card-stat-block-style p-0">
+                      <select class="admin-animal-card-stat-input">
+                        <option>Маленький</option>
+                        <option>Средний</option>
+                      </select><img class="admin-animal-card-stat-img admin-animal-card-stat-img-style" src="images/admin-icon/ruler.svg" alt="Иконка линейки"/>
+                    </div>
+                  </p>
+                </div>
+                <div class="admin-animal-card-bot-stat-rc">
+                  <p class="admin-animal-card-stat-head">Стерелизация:
+                    <div class="admin-animal-card-df admin-card-stat-block-style">
+                      <select class="admin-animal-card-stat-input">
+                        <option>Да</option>
+                        <option>Нет</option>
+                      </select><img class="admin-animal-card-stat-img" src="images/admin-icon/denied.svg" alt="Иконка запрета"/>
+                    </div>
+                  </p>
+                  <p class="admin-animal-card-stat-head">Документация:
+                    <div class="admin-animal-card-df admin-card-stat-block-style p-0">
+                      <select class="admin-animal-card-stat-input">
+                        <option>Есть</option>
+                        <option>Нет</option>
+                      </select><img class="admin-animal-card-stat-img" src="images/admin-icon/documents.svg" alt="Иконка документов"/>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="admin-animal-card-bot-stat mt-3">
+              <div class="admin-animal-card-story">
+                <p class="admin-animal-card-stat-head">История животного:</p>
+                <textarea class="admin-animal-card-story-input" id="exampleFormControlTextarea1" rows="7">Жизнь крохотного щенка началась под лестницей магазина. Вместо теплого лежака и вкусного обеда его ожидала холодная улица и подачки прохожих. К счастью, на улице малыш провел меньше месяца. Вскоре после своего рождения он и трое его братьев попали в руки команды ловцов благотворительного фонда «Приют НН». В приюте фонда он быстро окреп и подрос.</textarea>
+              </div>
+            </div>
+            <div class="admin-animal-card-df admin-card-btn-block">
+              <button class="dlt-btn" type="submit">Удалить</button>
+              <div class="admin-animal-card-df">
+                <button class="admin-btn" type="submit">Отчет</button>
+                <button class="admin-btn ml-4" type="submit">Сохранить</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!--end admin-card-form-->
+      <!--footer-->
+      <footer class="admin-footer">
+        <div class="container">
+          <div class="navbar-collapse nav main-nav-style admin-footer-style">
+            <section class="footer-item">
+              <ul class="nav navbar-nav main-navbar-style">
+                <li class="nav-item footer-nav-item-style"><a class="nav-link admin-nav-link-style p-0" href="">Просмотр заявок</a></li>
+                <li class="nav-item footer-nav-item-style"><a class="nav-link admin-nav-link-style p-0" href="">Просмотр сообщений</a></li>
+                <li class="nav-item footer-nav-item-style"><a class="nav-link admin-nav-link-style p-0" href="">Редактор новостей</a></li>
+                <li class="nav-item footer-nav-item-style"><a class="nav-link admin-nav-link-style p-0" href="">Новая карточка</a></li>
+              </ul>
+            </section>
+            <section class="footer-item"><a href=""><img src="images/logo-admin.svg" alt="Логотип Админ-панели Приют НН"/></a></section>
+            <section class="footer-item">
+              <div class="our-contacts-footer"><img src="images/icon/admin-phone.svg"/><a class="number-phone" href="tel:88005553535">8 800 555 35 35</a>
+                <p>priutnn@mail.ru</p>
+              </div>
+              <div class="our-adress">
+                <p class="m-0">Проспект Бусыгина, д. 16</p>
+                <p class="m-0">Ул. Сергея Есенина, д. 38</p>
+                <p class="m-0">Ул. Глеба Успенского, д. 1</p>
+              </div>
+            </section>
+          </div>
+        </div>
+        <section class="footer-copyright">
+          <div class="container">
+            <p class="footer-copyright-text m-0">
+              <nobr>© Приют НН Все права на любые материалы, защищены в соответствии с российским и международным законодательствами об авторском праве и смежных правах.</nobr>
+            </p>
+          </div>
+        </section>
+      </footer>
+      <!--end footer-->
+    </div>
+  </body>
+</html>

@@ -9806,3 +9806,119 @@ body {
       text-decoration: none;
       color: #ffffff;
       background-color: #6981FF; }
+
+.admin-animal-card {
+  border-top: 1px solid #515151; }
+
+.admin-animal-card-style {
+  width: 555px; }
+
+.admin-animal-card-df {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .admin-animal-card-df .admin-animal-card-fp {
+    width: 400px;
+    height: 350px; }
+  .admin-animal-card-df .admin-animal-card-sp {
+    width: 120px;
+    height: 110px;
+    margin: 45px 0 0 25px; }
+  .admin-animal-card-df .admin-animal-name {
+    border: 1px solid #9A9A9A;
+    margin-bottom: 15px;
+    width: 350px;
+    text-align: center;
+    color: #515151;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    border-color: #9A9A9A; }
+    .admin-animal-card-df .admin-animal-name:focus {
+      outline: none; }
+  .admin-animal-card-df .admin-animal-card-info {
+    text-align: center; }
+
+.admin-animal-card-stat-lc {
+  margin-left: 20px; }
+
+.admin-animal-card-stat-head {
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #5A75FF;
+  text-align: left; }
+
+.admin-animal-card-stat-input {
+  border: 1px solid #9A9A9A;
+  width: 125px;
+  height: 27px;
+  color: #515151;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 42px; }
+  .admin-animal-card-stat-input:focus {
+    outline: none; }
+
+.admin-animal-card-stat-img {
+  margin-left: 10px; }
+
+.admin-card-stat-block-style {
+  padding: 0 0 18.25px 0; }
+
+.admin-animal-card-bot-stat {
+  margin: 50px auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.admin-animal-card-bot-stat-lc,
+.admin-animal-card-bot-stat-rc {
+  margin: 0 120px; }
+
+.admin-animal-card-stat-img-style {
+  margin-right: 60px; }
+
+.admin-animal-card-story-input {
+  width: 610px; }
+
+.admin-card-btn-block {
+  margin: 50px 0; }
+
+.admin-btn {
+  background-color: #5A75FF;
+  color: #ffffff;
+  border: none;
+  padding: 15px 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px; }
+  .admin-btn:focus {
+    outline: none; }
+  .admin-btn:hover {
+    background-color: #6981FF; }
+
+.dlt-btn {
+  background-color: #E63946;
+  color: #ffffff;
+  border: none;
+  padding: 15px 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px; }
+  .dlt-btn:focus {
+    outline: none; }
+  .dlt-btn:hover {
+    background-color: #fa3e4e; }
