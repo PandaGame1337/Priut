@@ -9472,7 +9472,7 @@ body {
 .auth-form-style {
   width: 550px;
   height: 400px;
-  margin: 250px auto;
+  margin: 100px auto;
   border: 1px solid #515151; }
   .auth-form-style .align-items-auth {
     text-align: center; }
@@ -9692,12 +9692,12 @@ body {
       .admin-filter-checkbox label .checkbox-admin-filter::before {
         content: '';
         position: absolute;
-        left: 2px;
-        top: 2px;
-        bottom: 3px;
-        right: 3px;
-        width: 11px;
-        height: 11px;
+        left: -1px;
+        top: -1px;
+        bottom: 1px;
+        right: 1px;
+        width: 17px;
+        height: 17px;
         background: #5A75FF;
         opacity: 0;
         -webkit-transform: scale(1.5);
@@ -9740,12 +9740,12 @@ body {
       .admin-filter-radio label .radio-admin-filter::before {
         content: '';
         position: absolute;
-        left: 2px;
-        top: 2px;
-        bottom: 3px;
-        right: 3px;
-        width: 11px;
-        height: 11px;
+        left: -1px;
+        top: -1px;
+        bottom: 1px;
+        right: 1px;
+        width: 17px;
+        height: 17px;
         background: #5A75FF;
         border-radius: 50%;
         opacity: 0;
