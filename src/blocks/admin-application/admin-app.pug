@@ -1,11 +1,34 @@
 section.admin-app
     .container
-        h2.block-head Просмотр заявок:
+        .admin-animal-card-df
+            h2.block-head.admin-app-head Просмотр заявок:
+            .admin-animal-card-df.app-story-style
+                a.admin-btn.app-story-btn(href="") Одобренные заявки
+                a.admin-btn.app-story-btn(href="") Отклоненные заявки 
         form(action="")
             .app-block
                 .app-count
                     p.count-number 1
-                .admin-animal-card-df
+                .admin-animal-card-df.admin-app-block-style
+                    .admin-animal-card-df
+                        .app-block-info-lc
+                            p.app-block-head E-mail:
+                            input.app-block-input(type="text" value="example@mail.ru")
+                            p.app-block-head Телефон:
+                            input.app-block-input(type="text" value="8 800 555 35 35")
+                        .app-block-info-rc
+                            p.app-block-head ФИО:
+                            input.app-block-input(type="text" value="Готлиб Артем Артемович")
+                    .app-btn-block
+                        a.admin-card-btn(type="submit") Открыть карточку животного
+                        .admin-animal-card-df
+                            button.dlt-btn.app-btn-style(type="submit") Отклонить
+                            button.admin-btn.app-btn-style(type="submit") Одобрить
+        form(action="")
+            .app-block
+                .app-count
+                    p.count-number 1
+                .admin-animal-card-df.admin-app-block-style
                     .admin-animal-card-df
                         .app-block-info-lc
                             p.app-block-head E-mail:
@@ -25,26 +48,7 @@ section.admin-app
                 .app-count
                     p.count-number 1
                 .admin-animal-card-df
-                    .admin-animal-card-df
-                        .app-block-info-lc
-                            p.app-block-head E-mail:
-                            input.app-block-input(type="text" value="example@mail.ru")
-                            p.app-block-head Телефон:
-                            input.app-block-input(type="text" value="8 800 555 35 35")
-                        .app-block-info-rc
-                            p.app-block-head ФИО:
-                            input.app-block-input(type="text" value="Готлиб Артем Артемович")
-                    .app-btn-block
-                        a.admin-card-btn(type="submit") Открыть карточку животного
-                        .admin-animal-card-df
-                            button.dlt-btn.app-btn-style(type="submit") Отклонить
-                            button.admin-btn.app-btn-style(type="submit") Одобрить
-        form(action="")
-            .app-block
-                .app-count
-                    p.count-number 1
-                .admin-animal-card-df
-                    .admin-animal-card-df
+                    .admin-animal-card-df.admin-app-block-style
                         .app-block-info-lc
                             p.app-block-head E-mail:
                             input.app-block-input(type="text" value="example@mail.ru")

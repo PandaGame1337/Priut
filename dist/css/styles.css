@@ -9834,7 +9834,8 @@ body {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  position: relative; }
   .admin-animal-card-df .input__wrapper {
     width: 100%;
     position: relative;
@@ -10013,9 +10014,12 @@ body {
 .admin-app {
   border-top: 1px solid #515151; }
 
+.admin-app-block-style {
+  padding-bottom: 10px; }
+
 .app-block {
   border: 1px solid #515151;
-  height: 150px;
+  height: auto;
   position: relative;
   margin-bottom: 30px; }
   .app-block .app-count {
@@ -10060,15 +10064,15 @@ body {
   margin: auto 0 auto 20px; }
 
 .app-btn-block {
-  margin-top: 21px;
-  margin-right: 20px; }
+  margin-top: 30px;
+  margin-right: 40px; }
 
 .admin-card-btn {
   margin-left: 10px;
   background: #ffffff0;
   color: #5A75FF;
   border: 1px solid #5A75FF;
-  padding: 15px 50px;
+  padding: 10px 50px;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -10083,3 +10087,44 @@ body {
 
 .app-btn-style {
   margin: 10px; }
+
+.app-story-style {
+  width: 350px; }
+
+.app-story-btn {
+  text-align: center;
+  margin: auto 0;
+  padding: 14px 20px !important;
+  height: 60px !important;
+  width: 150px !important; }
+  .app-story-btn:focus {
+    outline: none; }
+  .app-story-btn:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #6981FF; }
+
+.msg-block-input {
+  border: 1px solid #9A9A9A;
+  color: #515151;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px; }
+  .msg-block-input:focus {
+    outline: none; }
+
+.app-btn-block-text {
+  color: #515151;
+  margin: 5px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center; }
+
+.news-btn-style {
+  margin: 10px 20px !important;
+  padding: 10px 10px !important;
+  width: 150px !important;
+  height: 50px !important; }

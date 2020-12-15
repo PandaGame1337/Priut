@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Просмотр заявок</title>
+    <title>Редактор новостей</title>
     <!--css-->
     <link rel="stylesheet" href="./css/styles.min.css"/>
     <!--ff-->
@@ -34,97 +34,40 @@
         </nav>
       </header>
       <!--end header-->
-      <!--admin-card-form-->
+      <!--admin-filters-->
       <section class="admin-app">
         <div class="container">
           <div class="admin-animal-card-df">
-            <h2 class="block-head admin-app-head">Просмотр заявок:</h2>
-            <div class="admin-animal-card-df app-story-style"><a class="admin-btn app-story-btn" href="">Одобренные заявки</a><a class="admin-btn app-story-btn" href="">Отклоненные заявки </a></div>
+            <h2 class="block-head admin-app-head">Просмотр новостей:</h2><a class="admin-btn app-story-btn" href="">Добавление новости</a>
           </div>
           <form action="">
             <div class="app-block">
               <div class="app-count">
                 <p class="count-number">1</p>
               </div>
-              <div class="admin-animal-card-df admin-app-block-style">
-                <div class="admin-animal-card-df">
-                  <div class="app-block-info-lc">
-                    <p class="app-block-head">E-mail:</p>
-                    <input class="app-block-input" type="text" value="example@mail.ru"/>
-                    <p class="app-block-head">Телефон:</p>
-                    <input class="app-block-input" type="text" value="8 800 555 35 35"/>
-                  </div>
-                  <div class="app-block-info-rc">
-                    <p class="app-block-head">ФИО:</p>
-                    <input class="app-block-input" type="text" value="Готлиб Артем Артемович"/>
-                  </div>
-                </div>
-                <div class="app-btn-block"><a class="admin-card-btn" type="submit">Открыть карточку животного</a>
-                  <div class="admin-animal-card-df">
-                    <button class="dlt-btn app-btn-style" type="submit">Отклонить</button>
-                    <button class="admin-btn app-btn-style" type="submit">Одобрить</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </form>
-          <form action="">
-            <div class="app-block">
-              <div class="app-count">
-                <p class="count-number">1</p>
-              </div>
-              <div class="admin-animal-card-df admin-app-block-style">
-                <div class="admin-animal-card-df">
-                  <div class="app-block-info-lc">
-                    <p class="app-block-head">E-mail:</p>
-                    <input class="app-block-input" type="text" value="example@mail.ru"/>
-                    <p class="app-block-head">Телефон:</p>
-                    <input class="app-block-input" type="text" value="8 800 555 35 35"/>
-                  </div>
-                  <div class="app-block-info-rc">
-                    <p class="app-block-head">ФИО:</p>
-                    <input class="app-block-input" type="text" value="Готлиб Артем Артемович"/>
-                  </div>
-                </div>
-                <div class="app-btn-block"><a class="admin-card-btn" type="submit">Открыть карточку животного</a>
-                  <div class="admin-animal-card-df">
-                    <button class="dlt-btn app-btn-style" type="submit">Отклонить</button>
-                    <button class="admin-btn app-btn-style" type="submit">Одобрить</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </form>
-          <form action="">
-            <div class="app-block">
-              <div class="app-count">
-                <p class="count-number">1</p>
-              </div>
               <div class="admin-animal-card-df">
-                <div class="admin-animal-card-df admin-app-block-style">
+                <div class="admin-animal-card-df">
                   <div class="app-block-info-lc">
-                    <p class="app-block-head">E-mail:</p>
-                    <input class="app-block-input" type="text" value="example@mail.ru"/>
-                    <p class="app-block-head">Телефон:</p>
-                    <input class="app-block-input" type="text" value="8 800 555 35 35"/>
+                    <p class="app-block-head">Заголовок:</p>
+                    <input class="app-block-input" type="text" value="График работы приюта"/>
+                    <p class="app-block-head">Дата:</p>
+                    <input class="app-block-input" type="text" value="16/10/2020"/>
                   </div>
                   <div class="app-block-info-rc">
-                    <p class="app-block-head">ФИО:</p>
-                    <input class="app-block-input" type="text" value="Готлиб Артем Артемович"/>
+                    <p class="app-block-head">Текст новости:</p>
+                    <textarea class="msg-block-input" name="" cols="75" rows="3">Друзья, во время карантина мы работаем ТОЛЬКО в режиме отдачи животных в добрые руки. Это означает, что вы сможете придти и взять кошку или собаку к себе в семью.</textarea>
                   </div>
                 </div>
-                <div class="app-btn-block"><a class="admin-card-btn" type="submit">Открыть карточку животного</a>
-                  <div class="admin-animal-card-df">
-                    <button class="dlt-btn app-btn-style" type="submit">Отклонить</button>
-                    <button class="admin-btn app-btn-style" type="submit">Одобрить</button>
-                  </div>
+                <div class="app-btn-block msg-btn-block-style">
+                  <button class="admin-btn news-btn-style" type="submit">Редактировать</button>
+                  <button class="dlt-btn news-btn-style" type="submit">Удалить</button>
                 </div>
               </div>
             </div>
           </form>
         </div>
       </section>
-      <!--end admin-card-form-->
+      <!--end admin-filters-->
       <!--footer-->
       <footer class="admin-footer">
         <div class="container">
@@ -160,5 +103,6 @@
       </footer>
       <!--end footer-->
     </div>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
