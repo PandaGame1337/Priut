@@ -1,1 +1,1 @@
-$(function(){$(".js-topslider").slick({infinite:!0,speed:600,dots:!0,arrows:!1,autoplay:!0,autoplaySpeed:5e3}),$(".multiple-items").slick({infinite:!0,slidesToShow:4,slidesToScroll:4})}),$(".input__wrapper > lable").find("input").change(function(){var e=this.files;$(".input__wrapper > lable").text("Selected file: "+e[0].name)});
+$(function(){$(".js-topslider").slick({infinite:!0,speed:600,dots:!0,arrows:!1,autoplay:!0,autoplaySpeed:5e3}),$(".multiple-items").slick({infinite:!0,slidesToShow:4,slidesToScroll:4})});

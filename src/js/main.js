@@ -16,8 +16,3 @@ $(function() {
     });
 
 });
-
-$('.input__wrapper > lable').find('input').change(function() {
-    var file = this.files;
-    $('.input__wrapper > lable').text('Selected file: ' + file[0].name);
-})

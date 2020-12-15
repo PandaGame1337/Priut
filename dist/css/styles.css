@@ -9907,6 +9907,7 @@ body {
     margin: 45px 0 0 25px; }
   .admin-animal-card-df .admin-animal-name {
     border: 1px solid #9A9A9A;
+    margin-left: 20px;
     margin-bottom: 15px;
     width: 350px;
     text-align: center;
@@ -10000,6 +10001,14 @@ body {
     outline: none; }
   .dlt-btn:hover {
     background-color: #fa3e4e; }
+
+.preview-img {
+  width: 396px;
+  height: 346px; }
+
+.preview-img1 {
+  width: 126px;
+  height: 111px; }
 
 .admin-app {
   border-top: 1px solid #515151; }

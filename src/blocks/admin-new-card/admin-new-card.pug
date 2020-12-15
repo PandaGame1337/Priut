@@ -2,22 +2,31 @@ section.admin-animal-card
     .container
         h2.block-head Новая карточка животного:
         form(action="")
+            
             .admin-animal-card-df
                 .admin-animal-card-df.admin-animal-card-style
                     .input__wrapper
                         lable
-                            input.input__file(type="file" name="file" id="input__file")
-                            lable.input__file-button
+                            input.input__file(type="file" name="file" id="input__file"  accept="image/*" onchange="getFileParam();")
+                            lable.input__file-button#preview
                                 span.input__file-button-text Выберите файл
                     .input__wrapper
-                        input.input__file-mini(type="file" name="file" id="input__file")
-                        lable.input__file-button-mini
+                        input.input__file-mini(type="file" name="file" id="input__file1" accept="image/*" onchange="getFile1Param();")
+                        lable.input__file-button-mini#preview1
                             span.input__file-button-text-mini Выберите файл
-                        input.input__file-mini-2(type="file" name="file" id="input__file")
-                        lable.input__file-button-mini
+                        input.input__file-mini-2(type="file" name="file" id="input__file2" accept="image/*" onchange="getFile2Param();")
+                        lable.input__file-button-mini#preview2
                             span.input__file-button-text-mini Выберите файл
                 .admin-animal-card-info.admin-animal-card-style
-                    input.admin-animal-name(type="text" value="" placeholder="Кличка животного")
+                    .admin-animal-card-df
+                        input.admin-animal-name(type="text" value="" placeholder="Кличка животного")
+                        .lubou
+                            p.admin-animal-card-stat-head Тип:
+                                .admin-animal-card-df.admin-card-stat-block-style
+                                    select.admin-animal-card-stat-input
+                                        option Собака
+                                        option Кошка
+                                    img.admin-animal-card-stat-img(src="images/admin-icon/admin-paw.svg", alt="Иконка типа")
                     .admin-animal-card-df
                         .admin-animal-card-stat-lc
                             p.admin-animal-card-stat-head Возраст:
