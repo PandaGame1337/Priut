@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Просмотр заявок</title>
+    <title>Полученные сообщения</title>
     <!--css-->
     <link rel="stylesheet" href="./css/styles.min.css"/>
     <!--ff-->
@@ -34,63 +34,33 @@
         </nav>
       </header>
       <!--end header-->
-      <!--admin-card-form-->
+      <!--admin-filters-->
       <section class="admin-app">
         <div class="container">
-          <div class="admin-animal-card-df">
-            <h2 class="block-head admin-app-head">Просмотр заявок:</h2>
-            <div class="admin-animal-card-df app-story-style"><a class="admin-btn app-story-btn" href="">Одобренные заявки</a><a class="admin-btn app-story-btn" href="">Отклоненные заявки </a></div>
-          </div>
+          <h2 class="block-head">Полученные сообщения:</h2>
           <form action="">
             <div class="app-block">
               <div class="app-count">
                 <p class="count-number">1</p>
               </div>
-              <div class="admin-animal-card-df admin-app-block-style">
+              <div class="admin-animal-card-df">
                 <div class="admin-animal-card-df">
                   <div class="app-block-info-lc">
-                    <p class="app-block-head">E-mail:</p>
-                    <input class="app-block-input" type="text" value="example@mail.ru"/>
+                    <p class="app-block-head">Фио:</p>
+                    <input class="app-block-input" type="text" value="Готлиб Артем Артемович"/>
                     <p class="app-block-head">Телефон:</p>
                     <input class="app-block-input" type="text" value="8 800 555 35 35"/>
                   </div>
                   <div class="app-block-info-rc">
-                    <p class="app-block-head">ФИО:</p>
-                    <input class="app-block-input" type="text" value="Готлиб Артем Артемович"/>
+                    <p class="app-block-head">Сообщение:</p>
+                    <textarea class="msg-block-input" name="" cols="75" rows="3">Артем гей</textarea>
                   </div>
                 </div>
-                <div class="app-btn-block"><a class="admin-card-btn" type="submit">Открыть карточку животного</a>
-                  <div class="admin-animal-card-df">
-                    <button class="dlt-btn app-btn-style" type="submit">Отклонить</button>
-                    <button class="admin-btn app-btn-style" type="submit">Одобрить</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </form>
-          <form action="">
-            <div class="app-block">
-              <div class="app-count">
-                <p class="count-number">1</p>
-              </div>
-              <div class="admin-animal-card-df admin-app-block-style">
-                <div class="admin-animal-card-df">
-                  <div class="app-block-info-lc">
-                    <p class="app-block-head">E-mail:</p>
-                    <input class="app-block-input" type="text" value="example@mail.ru"/>
-                    <p class="app-block-head">Телефон:</p>
-                    <input class="app-block-input" type="text" value="8 800 555 35 35"/>
-                  </div>
-                  <div class="app-block-info-rc">
-                    <p class="app-block-head">ФИО:</p>
-                    <input class="app-block-input" type="text" value="Готлиб Артем Артемович"/>
-                  </div>
-                </div>
-                <div class="app-btn-block"><a class="admin-card-btn" type="submit">Открыть карточку животного</a>
-                  <div class="admin-animal-card-df">
-                    <button class="dlt-btn app-btn-style" type="submit">Отклонить</button>
-                    <button class="admin-btn app-btn-style" type="submit">Одобрить</button>
-                  </div>
+                <div class="app-btn-block msg-btn-block-style">
+                  <p class="app-btn-block-text">Получено:</p>
+                  <p class="app-btn-block-text">22.02.1968</p>
+                  <p class="app-btn-block-text">12:48:22 </p>
+                  <button class="admin-btn app-btn-style" type="submit">Прочитано</button>
                 </div>
               </div>
             </div>
@@ -101,30 +71,57 @@
                 <p class="count-number">1</p>
               </div>
               <div class="admin-animal-card-df">
-                <div class="admin-animal-card-df admin-app-block-style">
+                <div class="admin-animal-card-df">
                   <div class="app-block-info-lc">
-                    <p class="app-block-head">E-mail:</p>
-                    <input class="app-block-input" type="text" value="example@mail.ru"/>
+                    <p class="app-block-head">Фио:</p>
+                    <input class="app-block-input" type="text" value="Готлиб Артем Артемович"/>
                     <p class="app-block-head">Телефон:</p>
                     <input class="app-block-input" type="text" value="8 800 555 35 35"/>
                   </div>
                   <div class="app-block-info-rc">
-                    <p class="app-block-head">ФИО:</p>
-                    <input class="app-block-input" type="text" value="Готлиб Артем Артемович"/>
+                    <p class="app-block-head">Сообщение:</p>
+                    <textarea class="msg-block-input" name="" cols="75" rows="3">Артем гей</textarea>
                   </div>
                 </div>
-                <div class="app-btn-block"><a class="admin-card-btn" type="submit">Открыть карточку животного</a>
-                  <div class="admin-animal-card-df">
-                    <button class="dlt-btn app-btn-style" type="submit">Отклонить</button>
-                    <button class="admin-btn app-btn-style" type="submit">Одобрить</button>
+                <div class="app-btn-block msg-btn-block-style">
+                  <p class="app-btn-block-text">Получено:</p>
+                  <p class="app-btn-block-text">22.02.1968</p>
+                  <p class="app-btn-block-text">12:48:22 </p>
+                  <button class="admin-btn app-btn-style" type="submit">Прочитано</button>
+                </div>
+              </div>
+            </div>
+          </form>
+          <form action="">
+            <div class="app-block">
+              <div class="app-count">
+                <p class="count-number">1</p>
+              </div>
+              <div class="admin-animal-card-df">
+                <div class="admin-animal-card-df">
+                  <div class="app-block-info-lc">
+                    <p class="app-block-head">Фио:</p>
+                    <input class="app-block-input" type="text" value="Готлиб Артем Артемович"/>
+                    <p class="app-block-head">Телефон:</p>
+                    <input class="app-block-input" type="text" value="8 800 555 35 35"/>
                   </div>
+                  <div class="app-block-info-rc">
+                    <p class="app-block-head">Сообщение:</p>
+                    <textarea class="msg-block-input" name="" cols="75" rows="3">Артем гей</textarea>
+                  </div>
+                </div>
+                <div class="app-btn-block msg-btn-block-style">
+                  <p class="app-btn-block-text">Получено:</p>
+                  <p class="app-btn-block-text">22.02.1968</p>
+                  <p class="app-btn-block-text">12:48:22 </p>
+                  <button class="admin-btn app-btn-style" type="submit">Прочитано</button>
                 </div>
               </div>
             </div>
           </form>
         </div>
       </section>
-      <!--end admin-card-form-->
+      <!--end admin-filters-->
       <!--footer-->
       <footer class="admin-footer">
         <div class="container">
