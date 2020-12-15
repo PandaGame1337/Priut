@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Просмотр заявок</title>
+    <!--css-->
+    <link rel="stylesheet" href="./css/styles.min.css"/>
+    <!--ff-->
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--header-->
+      <header class="admin-header">
+        <nav class="navbar navbar-expand-sm main-navigation">
+          <div class="container">
+            <div class="navbar-collapse admin-nav-style">
+              <div class="nav-image"><a href="admin-index.html"><img src="images/logo-admin.svg" alt="Логотип Админ-панели Приют НН"/></a></div>
+              <ul class="nav navbar-nav admin-navbar-style">
+                <li class="nav-item"><a class="nav-link admin-nav-link-style p-0" href="catalog.html">Просмотр заявок</a></li>
+                <li class="nav-item"><a class="nav-link admin-nav-link-style p-0" href="information.html">Просмотр сообщений</a></li>
+                <li class="nav-item"><a class="nav-link admin-nav-link-style p-0" href="about.html">Редактор новостей</a></li>
+                <li class="nav-item"><a class="nav-link admin-nav-link-style p-0" href="admin-new-card.html">Новая карточка</a></li>
+              </ul>
+              <form action="obr_exit.php" method="post">
+                <div class="nav-exit"><img src="images/icon/exit.svg"/>
+                  <button class="exit-text">Выход</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!--end header-->
+      <!--admin-card-form-->
+      <section class="admin-app">
+        <div class="container">
+          <h2 class="block-head">Просмотр заявок:</h2>
+          <form action="">
+            <div class="app-block">
+              <div class="app-count">
+                <p class="count-number">1</p>
+              </div>
+              <div class="admin-animal-card-df">
+                <div class="admin-animal-card-df">
+                  <div class="app-block-info-lc">
+                    <p class="app-block-head">E-mail:</p>
+                    <input class="app-block-input" type="text" value="example@mail.ru"/>
+                    <p class="app-block-head">Телефон:</p>
+                    <input class="app-block-input" type="text" value="8 800 555 35 35"/>
+                  </div>
+                  <div class="app-block-info-rc">
+                    <p class="app-block-head">ФИО:</p>
+                    <input class="app-block-input" type="text" value="Готлиб Артем Артемович"/>
+                  </div>
+                </div>
+                <div class="app-btn-block"><a class="admin-card-btn" type="submit">Открыть карточку животного</a>
+                  <div class="admin-animal-card-df">
+                    <button class="dlt-btn app-btn-style" type="submit">Отклонить</button>
+                    <button class="admin-btn app-btn-style" type="submit">Одобрить</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+          <form action="">
+            <div class="app-block">
+              <div class="app-count">
+                <p class="count-number">1</p>
+              </div>
+              <div class="admin-animal-card-df">
+                <div class="admin-animal-card-df">
+                  <div class="app-block-info-lc">
+                    <p class="app-block-head">E-mail:</p>
+                    <input class="app-block-input" type="text" value="example@mail.ru"/>
+                    <p class="app-block-head">Телефон:</p>
+                    <input class="app-block-input" type="text" value="8 800 555 35 35"/>
+                  </div>
+                  <div class="app-block-info-rc">
+                    <p class="app-block-head">ФИО:</p>
+                    <input class="app-block-input" type="text" value="Готлиб Артем Артемович"/>
+                  </div>
+                </div>
+                <div class="app-btn-block"><a class="admin-card-btn" type="submit">Открыть карточку животного</a>
+                  <div class="admin-animal-card-df">
+                    <button class="dlt-btn app-btn-style" type="submit">Отклонить</button>
+                    <button class="admin-btn app-btn-style" type="submit">Одобрить</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+          <form action="">
+            <div class="app-block">
+              <div class="app-count">
+                <p class="count-number">1</p>
+              </div>
+              <div class="admin-animal-card-df">
+                <div class="admin-animal-card-df">
+                  <div class="app-block-info-lc">
+                    <p class="app-block-head">E-mail:</p>
+                    <input class="app-block-input" type="text" value="example@mail.ru"/>
+                    <p class="app-block-head">Телефон:</p>
+                    <input class="app-block-input" type="text" value="8 800 555 35 35"/>
+                  </div>
+                  <div class="app-block-info-rc">
+                    <p class="app-block-head">ФИО:</p>
+                    <input class="app-block-input" type="text" value="Готлиб Артем Артемович"/>
+                  </div>
+                </div>
+                <div class="app-btn-block"><a class="admin-card-btn" type="submit">Открыть карточку животного</a>
+                  <div class="admin-animal-card-df">
+                    <button class="dlt-btn app-btn-style" type="submit">Отклонить</button>
+                    <button class="admin-btn app-btn-style" type="submit">Одобрить</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!--end admin-card-form-->
+      <!--footer-->
+      <footer class="admin-footer">
+        <div class="container">
+          <div class="navbar-collapse nav main-nav-style admin-footer-style">
+            <section class="footer-item">
+              <ul class="nav navbar-nav main-navbar-style">
+                <li class="nav-item footer-nav-item-style"><a class="nav-link admin-nav-link-style p-0" href="">Просмотр заявок</a></li>
+                <li class="nav-item footer-nav-item-style"><a class="nav-link admin-nav-link-style p-0" href="">Просмотр сообщений</a></li>
+                <li class="nav-item footer-nav-item-style"><a class="nav-link admin-nav-link-style p-0" href="">Редактор новостей</a></li>
+                <li class="nav-item footer-nav-item-style"><a class="nav-link admin-nav-link-style p-0" href="">Новая карточка</a></li>
+              </ul>
+            </section>
+            <section class="footer-item"><a href=""><img src="images/logo-admin.svg" alt="Логотип Админ-панели Приют НН"/></a></section>
+            <section class="footer-item">
+              <div class="our-contacts-footer"><img src="images/icon/admin-phone.svg"/><a class="number-phone" href="tel:88005553535">8 800 555 35 35</a>
+                <p>priutnn@mail.ru</p>
+              </div>
+              <div class="our-adress">
+                <p class="m-0">Проспект Бусыгина, д. 16</p>
+                <p class="m-0">Ул. Сергея Есенина, д. 38</p>
+                <p class="m-0">Ул. Глеба Успенского, д. 1</p>
+              </div>
+            </section>
+          </div>
+        </div>
+        <section class="footer-copyright">
+          <div class="container">
+            <p class="footer-copyright-text m-0">
+              <nobr>© Приют НН Все права на любые материалы, защищены в соответствии с российским и международным законодательствами об авторском праве и смежных правах.</nobr>
+            </p>
+          </div>
+        </section>
+      </footer>
+      <!--end footer-->
+    </div>
+  </body>
+</html>
