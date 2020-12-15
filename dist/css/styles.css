@@ -10000,3 +10000,77 @@ body {
     outline: none; }
   .dlt-btn:hover {
     background-color: #fa3e4e; }
+
+.admin-app {
+  border-top: 1px solid #515151; }
+
+.app-block {
+  border: 1px solid #515151;
+  height: 150px;
+  position: relative;
+  margin-bottom: 30px; }
+  .app-block .app-count {
+    top: -1px;
+    left: -1px;
+    height: 35px;
+    width: 35px;
+    background-color: #5A75FF;
+    position: absolute; }
+    .app-block .app-count .count-number {
+      margin-top: 7px;
+      text-align: center;
+      color: #ffffff;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px; }
+  .app-block .app-block-head {
+    margin: 10px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #515151;
+    text-align: left; }
+  .app-block .app-block-input {
+    border: 1px solid #9A9A9A;
+    width: 230px;
+    height: 27px;
+    color: #515151;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 42px; }
+    .app-block .app-block-input:focus {
+      outline: none; }
+
+.app-block-info-lc {
+  margin: auto 0 auto 50px; }
+
+.app-block-info-rc {
+  margin: auto 0 auto 20px; }
+
+.app-btn-block {
+  margin-top: 21px;
+  margin-right: 20px; }
+
+.admin-card-btn {
+  margin-left: 10px;
+  background: #ffffff0;
+  color: #5A75FF;
+  border: 1px solid #5A75FF;
+  padding: 15px 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px; }
+  .admin-card-btn:focus {
+    outline: none;
+    text-decoration: none; }
+  .admin-card-btn:hover {
+    color: #5A75FF;
+    background-color: #f3f3fc;
+    text-decoration: none; }
+
+.app-btn-style {
+  margin: 10px; }
