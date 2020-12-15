@@ -40,8 +40,19 @@
           <h2 class="block-head">Новая карточка животного:</h2>
           <form action="">
             <div class="admin-animal-card-df">
-              <div class="admin-animal-card-df admin-animal-card-style"><img class="admin-animal-card-fp" src="images/ozik-1.png" alt="Первое фото"/>
-                <div class="admin-animal-card-block"><img class="admin-animal-card-sp" src="images/ozik-2.png" alt="Второе фото"/><img class="admin-animal-card-sp" src="images/ozik-3.png" alt="Третье фото"/></div>
+              <div class="admin-animal-card-df admin-animal-card-style">
+                <div class="input__wrapper">
+                  <lable>
+                    <input class="input__file" type="file" name="file" id="input__file"/>
+                    <lable class="input__file-button"><span class="input__file-button-text">Выберите файл</span></lable>
+                  </lable>
+                </div>
+                <div class="input__wrapper">
+                  <input class="input__file-mini" type="file" name="file" id="input__file"/>
+                  <lable class="input__file-button-mini"><span class="input__file-button-text-mini">Выберите файл</span></lable>
+                  <input class="input__file-mini-2" type="file" name="file" id="input__file"/>
+                  <lable class="input__file-button-mini"><span class="input__file-button-text-mini">Выберите файл</span></lable>
+                </div>
               </div>
               <div class="admin-animal-card-info admin-animal-card-style">
                 <input class="admin-animal-name" type="text" value="" placeholder="Кличка животного"/>
@@ -191,5 +202,6 @@
       </footer>
       <!--end footer-->
     </div>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

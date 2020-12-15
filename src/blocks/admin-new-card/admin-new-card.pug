@@ -4,10 +4,18 @@ section.admin-animal-card
         form(action="")
             .admin-animal-card-df
                 .admin-animal-card-df.admin-animal-card-style
-                    img.admin-animal-card-fp(src="images/ozik-1.png", alt="Первое фото")
-                    .admin-animal-card-block
-                        img.admin-animal-card-sp(src="images/ozik-2.png", alt="Второе фото")
-                        img.admin-animal-card-sp(src="images/ozik-3.png", alt="Третье фото")
+                    .input__wrapper
+                        lable
+                            input.input__file(type="file" name="file" id="input__file")
+                            lable.input__file-button
+                                span.input__file-button-text Выберите файл
+                    .input__wrapper
+                        input.input__file-mini(type="file" name="file" id="input__file")
+                        lable.input__file-button-mini
+                            span.input__file-button-text-mini Выберите файл
+                        input.input__file-mini-2(type="file" name="file" id="input__file")
+                        lable.input__file-button-mini
+                            span.input__file-button-text-mini Выберите файл
                 .admin-animal-card-info.admin-animal-card-style
                     input.admin-animal-name(type="text" value="" placeholder="Кличка животного")
                     .admin-animal-card-df
@@ -91,3 +99,4 @@ section.admin-animal-card
                     textarea.admin-animal-card-story-input(id="exampleFormControlTextarea1", rows="7" placeholder="История животного")
             .admin-animal-card-bot-stat.admin-card-btn-block
                 button.admin-btn(type="submit") Сохранить
+
