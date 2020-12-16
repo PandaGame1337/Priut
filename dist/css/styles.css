@@ -10128,3 +10128,28 @@ body {
   padding: 10px 10px !important;
   width: 150px !important;
   height: 50px !important; }
+
+.admin-add-news-container {
+  margin-left: 274px; }
+  .admin-add-news-container .admin-add-news-input-title {
+    width: 592px;
+    height: 35px; }
+    .admin-add-news-container .admin-add-news-input-title:focus {
+      outline: none; }
+  .admin-add-news-container .admin-add-news-container-text {
+    margin-top: 10px; }
+    .admin-add-news-container .admin-add-news-container-text .admin-add-news-input-text {
+      width: 592px;
+      height: 410px; }
+      .admin-add-news-container .admin-add-news-container-text .admin-add-news-input-text:focus {
+        outline: none; }
+
+.admin-add-news-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #5A75FF;
+  margin-bottom: 10px; }
+
+.admin-add-news-btn {
+  margin: 36px 0 50px 221px; }
