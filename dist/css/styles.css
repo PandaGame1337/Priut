@@ -10147,9 +10147,23 @@ body {
 
 .admin-add-news {
   border-top: 1px solid #515151; }
+<<<<<<< HEAD
   .admin-add-news .admin-add-news-container {
     margin-left: 274px; }
     .admin-add-news .admin-add-news-container .admin-add-news-input-title {
+=======
+
+.admin-add-news-container {
+  margin-left: 274px; }
+  .admin-add-news-container .admin-add-news-input-title {
+    width: 592px;
+    height: 35px; }
+    .admin-add-news-container .admin-add-news-input-title:focus {
+      outline: none; }
+  .admin-add-news-container .admin-add-news-container-text {
+    margin-top: 10px; }
+    .admin-add-news-container .admin-add-news-container-text .admin-add-news-input-text {
+>>>>>>> 1223d612fd97af9db02ff3272182538785e00d8f
       width: 592px;
       height: 35px; }
       .admin-add-news .admin-add-news-container .admin-add-news-input-title:focus {
@@ -10171,3 +10185,6 @@ body {
 
 .admin-add-news-btn {
   margin: 36px 0 50px 221px; }
+
+.app-status-style {
+  margin: 20px 35px !important; }

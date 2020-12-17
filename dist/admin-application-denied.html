@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Просмотр заявок</title>
+    <title>Просмотр отклоненных заявок</title>
     <!--css-->
     <link rel="stylesheet" href="./css/styles.min.css"/>
     <!--ff-->
@@ -35,12 +35,9 @@
       </header>
       <!--end header-->
       <!--admin-card-form-->
-      <section class="admin-app">
+      <section class="admin-app-denied">
         <div class="container">
-          <div class="admin-animal-card-df">
-            <h2 class="block-head admin-app-head">Просмотр заявок:</h2>
-            <div class="admin-animal-card-df app-story-style"><a class="admin-btn app-story-btn" href="admin-application-approved.html">Одобренные заявки</a><a class="admin-btn app-story-btn" href="admin-application-denied.html">Отклоненные заявки </a></div>
-          </div>
+          <h2 class="block-head admin-app-head">Просмотр отклоненных заявок:</h2>
           <form action="">
             <div class="app-block">
               <div class="app-count">
@@ -60,64 +57,9 @@
                   </div>
                 </div>
                 <div class="app-btn-block"><a class="admin-card-btn" type="submit">Открыть карточку животного</a>
-                  <div class="admin-animal-card-df">
-                    <button class="dlt-btn app-btn-style" type="submit">Отклонить</button>
-                    <button class="admin-btn app-btn-style" type="submit">Одобрить</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </form>
-          <form action="">
-            <div class="app-block">
-              <div class="app-count">
-                <p class="count-number">1</p>
-              </div>
-              <div class="admin-animal-card-df admin-app-block-style">
-                <div class="admin-animal-card-df">
-                  <div class="app-block-info-lc">
-                    <p class="app-block-head">E-mail:</p>
-                    <input class="app-block-input" type="text" value="example@mail.ru"/>
-                    <p class="app-block-head">Телефон:</p>
-                    <input class="app-block-input" type="text" value="8 800 555 35 35"/>
-                  </div>
-                  <div class="app-block-info-rc">
-                    <p class="app-block-head">ФИО:</p>
-                    <input class="app-block-input" type="text" value="Готлиб Артем Артемович"/>
-                  </div>
-                </div>
-                <div class="app-btn-block"><a class="admin-card-btn" type="submit">Открыть карточку животного</a>
-                  <div class="admin-animal-card-df">
-                    <button class="dlt-btn app-btn-style" type="submit">Отклонить</button>
-                    <button class="admin-btn app-btn-style" type="submit">Одобрить</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </form>
-          <form action="">
-            <div class="app-block">
-              <div class="app-count">
-                <p class="count-number">1</p>
-              </div>
-              <div class="admin-animal-card-df">
-                <div class="admin-animal-card-df admin-app-block-style">
-                  <div class="app-block-info-lc">
-                    <p class="app-block-head">E-mail:</p>
-                    <input class="app-block-input" type="text" value="example@mail.ru"/>
-                    <p class="app-block-head">Телефон:</p>
-                    <input class="app-block-input" type="text" value="8 800 555 35 35"/>
-                  </div>
-                  <div class="app-block-info-rc">
-                    <p class="app-block-head">ФИО:</p>
-                    <input class="app-block-input" type="text" value="Готлиб Артем Артемович"/>
-                  </div>
-                </div>
-                <div class="app-btn-block"><a class="admin-card-btn" type="submit">Открыть карточку животного</a>
-                  <div class="admin-animal-card-df">
-                    <button class="dlt-btn app-btn-style" type="submit">Отклонить</button>
-                    <button class="admin-btn app-btn-style" type="submit">Одобрить</button>
-                  </div>
+                  <p class="app-block-head app-status-style">Статус:
+                    <input class="app-block-input" type="text" value="Отклонено"/>
+                  </p>
                 </div>
               </div>
             </div>
