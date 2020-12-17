@@ -1,6 +1,3 @@
-.app-status-style {
-  margin: 20px 35px !important; }
-
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -10132,6 +10129,9 @@ body {
   width: 150px !important;
   height: 50px !important; }
 
+.admin-add-news {
+  border-top: 1px solid #515151; }
+
 .admin-add-news-container {
   margin-left: 274px; }
   .admin-add-news-container .admin-add-news-input-title {
@@ -10156,3 +10156,6 @@ body {
 
 .admin-add-news-btn {
   margin: 36px 0 50px 221px; }
+
+.app-status-style {
+  margin: 20px 35px !important; }
