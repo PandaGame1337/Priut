@@ -4,8 +4,20 @@
     <h2 class="block-head">Редактировать животного:</h2>
     <form action="">
       <div class="admin-animal-card-df">
-        <div class="admin-animal-card-df admin-animal-card-style"><img class="admin-animal-card-fp" src="images/ozik-1.png" alt="Первое фото"/>
-          <div class="admin-animal-card-block"><img class="admin-animal-card-sp" src="images/ozik-2.png" alt="Второе фото"/><img class="admin-animal-card-sp" src="images/ozik-3.png" alt="Третье фото"/></div>
+        <div class="admin-animal-card-df admin-animal-card-style">
+          <div class="input__wrapper">
+            <lable>
+              <input class="input__file" type="file" name="file" id="input__file" accept="image/*" onchange="getFileParam();"/>
+              <lable class="input__file-button border-white" id="preview"></lable>
+            </lable>
+          </div><img class="admin-animal-card-fp" src="images/ozik-1.png" alt="Первое фото"/>
+          <div class="admin-animal-card-block"></div>
+          <div class="input__wrapper">
+            <input class="input__file-mini" type="file" name="file" id="input__file1" accept="image/*" onchange="getFile1Param();"/>
+            <lable class="input__file-button-mini border-white" id="preview1"></lable><img class="admin-animal-card-sp" src="images/ozik-2.png" alt="Второе фото"/>
+            <input class="input__file-mini-2" type="file" name="file" id="input__file2" accept="image/*" onchange="getFile2Param();"/>
+            <lable class="input__file-button-mini border-white" id="preview2"></lable><img class="admin-animal-card-sp1" src="images/ozik-3.png" alt="Третье фото"/>
+          </div>
         </div>
         <div class="admin-animal-card-info admin-animal-card-style">
           <input class="admin-animal-name" type="text" value="Озик" placeholder="Кличка животного"/>

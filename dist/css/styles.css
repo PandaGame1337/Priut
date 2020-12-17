@@ -9863,7 +9863,8 @@ body {
         -webkit-box-pack--ms-flex-pack: start;
           -webkit-box-pack--ms-flex-pack-justify-content: flex-start; }
       .admin-animal-card-df .input__wrapper .input__file-button .input__file-button-text {
-        margin-left: 70px; }
+        margin-left: 70px;
+        z-index: -1; }
     .admin-animal-card-df .input__wrapper .input__file-mini {
       opacity: 0;
       position: absolute;
@@ -9901,11 +9902,26 @@ body {
         margin-left: 10px; }
   .admin-animal-card-df .admin-animal-card-fp {
     width: 400px;
-    height: 350px; }
+    height: 350px;
+    z-index: -1;
+    position: absolute;
+    bottom: 15px; }
   .admin-animal-card-df .admin-animal-card-sp {
     width: 120px;
     height: 110px;
-    margin: 45px 0 0 25px; }
+    margin: 45px 0 0 25px;
+    z-index: -1;
+    position: absolute;
+    bottom: 200px;
+    left: 0px; }
+  .admin-animal-card-df .admin-animal-card-sp1 {
+    width: 120px;
+    height: 110px;
+    margin: 45px 0 0 25px;
+    z-index: -1;
+    position: absolute;
+    bottom: 45px;
+    left: 0; }
   .admin-animal-card-df .admin-animal-name {
     border: 1px solid #9A9A9A;
     margin-left: 20px;
@@ -10129,20 +10145,22 @@ body {
   width: 150px !important;
   height: 50px !important; }
 
-.admin-add-news-container {
-  margin-left: 274px; }
-  .admin-add-news-container .admin-add-news-input-title {
-    width: 592px;
-    height: 35px; }
-    .admin-add-news-container .admin-add-news-input-title:focus {
-      outline: none; }
-  .admin-add-news-container .admin-add-news-container-text {
-    margin-top: 10px; }
-    .admin-add-news-container .admin-add-news-container-text .admin-add-news-input-text {
+.admin-add-news {
+  border-top: 1px solid #515151; }
+  .admin-add-news .admin-add-news-container {
+    margin-left: 274px; }
+    .admin-add-news .admin-add-news-container .admin-add-news-input-title {
       width: 592px;
-      height: 410px; }
-      .admin-add-news-container .admin-add-news-container-text .admin-add-news-input-text:focus {
+      height: 35px; }
+      .admin-add-news .admin-add-news-container .admin-add-news-input-title:focus {
         outline: none; }
+    .admin-add-news .admin-add-news-container .admin-add-news-container-text {
+      margin-top: 10px; }
+      .admin-add-news .admin-add-news-container .admin-add-news-container-text .admin-add-news-input-text {
+        width: 592px;
+        height: 410px; }
+        .admin-add-news .admin-add-news-container .admin-add-news-container-text .admin-add-news-input-text:focus {
+          outline: none; }
 
 .admin-add-news-title {
   font-weight: 500;
